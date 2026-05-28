@@ -20,6 +20,8 @@ __pycache__/
 # Datos intermedios
 datos/*.json
 !datos/corpus_referencias.json
+!datos/hash_reproducibilidad.json
+!datos/resultados_calculos.json
 .venv/
 *.goutputstream*
 
