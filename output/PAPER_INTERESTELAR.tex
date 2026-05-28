@@ -178,8 +178,8 @@ La Tabla~\ref{tab:energia} presenta los requisitos energéticos de los principal
 \textbf{Concepto} & \textbf{Energía/Potencia} & \textbf{vs.\ prod.\ humana} \\
 \hline
 Civilización humana (2025) & $\sim2.5\times10^{13}$ W & $1\times$ \\
-Vela láser, 1g a $0.2c$ & $\sim2\times10^{15}$ J & 0.01$\times$ diario \\
-Vela láser, 1t a $0.2c$ & $\sim2\times10^{21}$ J & $\sim10\times$ anual \\
+Vela láser, 1g a $0.2c$ & $\sim1.85\times10^{12}$ J & $2.3\times10^{-7}$\% anual \\
+Vela láser, 1t a $0.2c$ & $\sim1.85\times10^{18}$ J & 0.23\% anual \\
 Antimateria, 1t a $0.5c$ & $\sim10^{21}$ J & $\sim5\times$ anual \\
 Daedalus (50,000t a $0.12c$) & $\sim3.2\times10^{22}$ J & $\sim40\times$ anual \\
 Alcubierre (original) & $\sim10^{52}$ J & $\sim10^{32}\times$ anual \\
@@ -203,7 +203,7 @@ Clark y Cahoy (2018) demuestran que un láser de 1 MW acoplado a un telescopio d
 
 La comunicación cuántica interestelar es físicamente posible en ciertas bandas. Rogers (2020) demuestra que el camino libre medio de fotones de rayos X de $10^4$ eV supera los $10^5$ pc —mayor que el diámetro de la Vía Láctea— haciendo la decoherencia despreciable [76].
 
-La Figura~\ref{fig:sincronizacion} muestra que incluso con un reloj atómico de iones de última generación (DSAC, $\sigma_A=10^{-15}$), el error de sincronización acumulado al final del crucero a $\alpha$ Centauri es de $\sim1.4\times10^8$ ms ($\sim4.2\times10^{13}$ km en distancia), dominado por la dilatación temporal relativista. Esto subraya la necesidad de correcciones relativistas continuas durante toda la misión.
+La Figura~\ref{fig:sincronizacion} muestra que incluso con un reloj atómico de iones de última generación (DSAC, $\sigma_A=10^{-15}$), el error de sincronización acumulado al final del crucero a $\alpha$ Centauri es de $\sim1.4\times10^{10}$ ms ($\sim4.2\times10^{12}$ km en distancia), dominado por la dilatación temporal relativista. \textbf{Nota:} este error requiere corrección continua mediante modelos relativistas a bordo; no es un error de navegación en el sentido clásico sino una consecuencia inevitable de la dilatación temporal que debe compensarse activamente.
 
 \subsection{Blindaje y supervivencia a velocidades relativistas}
 
@@ -225,7 +225,7 @@ Aunque el costo de la antimateria se ha cuantificado ($\sim$\$6.4B/ng), el costo
 
 \subsection{Eficiencia wall-plug y energía real}
 
-El cálculo de energía total ($2\times10^{15}$ J) corresponde a la energía cinética final. Para obtener la energía eléctrica requerida: $\eta_{\text{total}} = \eta_{\text{eléctrica}} \times \eta_{\text{láser}} \times \eta_{\text{acoplamiento}}$. Asumiendo $\eta_{\text{láser}} = 0.1\%$, $\eta_{\text{acoplamiento}} \approx 20\%$, y $\eta_{\text{eléctrica}} \approx 90\%$, se obtiene $\eta_{\text{total}} \approx 1.8\times10^{-4}$. Por tanto, $E_{\text{eléctrica}} \approx 1.1\times10^{19}$ J, equivalente a $\sim$6\% de la producción eléctrica humana anual.
+El cálculo de energía cinética ($1.85\times10^{12}$ J) corresponde a la energía final de la carga útil. Para obtener la energía eléctrica requerida: $\eta_{\text{total}} = \eta_{\text{eléctrica}} \times \eta_{\text{láser}} \times \eta_{\text{acoplamiento}}$. Asumiendo $\eta_{\text{láser}} = 0.1\%$, $\eta_{\text{acoplamiento}} \approx 20\%$, y $\eta_{\text{eléctrica}} \approx 90\%$, se obtiene $\eta_{\text{total}} \approx 1.8\times10^{-4}$. Por tanto, $E_{\text{eléctrica}} \approx 1.85\times10^{12} / 1.8\times10^{-4} \approx 1.03\times10^{16}$ J, equivalente a $\sim$0.0013\% de la producción eléctrica humana anual.
 
 \subsection{Turbulencia atmosférica y alternativa orbital}
 
@@ -241,7 +241,7 @@ Las demostraciones actuales de beam-riding con metasuperficies están a escala d
 
 \subsection{Análisis térmico de la vela}
 
-Bajo iluminación de 100 GW sobre una vela de 4 m$^2$, el flujo es de 25 MW/m$^2$. Con reflectividad 99.99\%, la potencia absorbida es $\sim$2.5 kW/m$^2$. La temperatura de equilibrio: $T = (P_{\text{abs}}/(\sigma\cdot\varepsilon))^{1/4}$. Para $\varepsilon = 0.1$, $T \approx 3000$ K (cercano al punto de fusión del SiC). Para $\varepsilon = 0.5$, $T \approx 1500$ K (manejable). El control de la emisividad infrarroja es crítico.
+Bajo iluminación de 100 GW sobre una vela de 16 m$^2$ (4$\times$4 m), el flujo es de 6.25 GW/m$^2$. Con reflectividad 99.99\%, la potencia absorbida es $\sim$625 kW/m$^2$. La temperatura de equilibrio: $T = (P_{\text{abs}}/(\sigma\cdot\varepsilon))^{1/4}$. Para $\varepsilon = 0.10$, $T \approx 3240$ K — \textbf{por encima del punto de fusión del SiC (3100 K)}. Para $\varepsilon = 0.20$, $T \approx 2725$ K (margen de seguridad). Para $\varepsilon = 0.50$, $T \approx 2167$ K (manejable). \textbf{Conclusión:} se requiere reflectividad $>99.99\%$ combinada con emisividad controlada $\varepsilon > 0.2$ para mantener la vela por debajo del punto de fusión. Reflectividades de 99.999\% (absorción 0.001\%) no han sido demostradas a estos flujos de potencia. El control simultáneo de reflectividad en 1064 nm y emitancia en el infrarrojo medio es un requisito de diseño crítico no resuelto.
 
 \subsection{Discusión de la condición de energía dominante (DEC)}
 
