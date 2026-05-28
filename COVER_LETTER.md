@@ -4,7 +4,7 @@
 
 **Para**: Editor, Acta Astronautica
 
-**De**: J. D. Galaz Amengual (ORCID: 0009-0007-7474-7560)
+**De**: Juan Galaz (ORCID: 0009-0007-7474-7560)
 
 ---
 
@@ -53,7 +53,7 @@ Este manuscrito no ha sido publicado previamente ni está bajo consideración en
 
 Atentamente,
 
-**J. D. Galaz Amengual**
+**Juan Galaz**
 ORCID: 0009-0007-7474-7560
-Email: juan1993@proton.me
+Email: juan.galaz@proton.me
 Santiago, Chile
