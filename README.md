@@ -1,4 +1,4 @@
-# Propulsion Interestelar — Paper de Revision Cientifica
+# Propulsion Interestelar : Paper de Revision Cientifica
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
 [![DOI](https://img.shields.io/badge/DOI-Zenodo--pending-orange)](https://zenodo.org)
@@ -69,7 +69,7 @@ propulsion-interestelar/
 
 ---
 
-## Reproducibilidad total — Un solo comando
+## Reproducibilidad total : Un solo comando
 
 ```bash
 git clone https://github.com/CienciaEstelar/propulsion-interestelar.git
@@ -97,14 +97,14 @@ Si ejecutas `verificar_todo()` en cualquier maquina, con cualquier SO, el hash D
 
 | Variable | Valor | Unidad | Paper ref |
 |---|---|---|---|
-| gamma (v=0.2c) | 1.020621 | — | Seccion 1 |
+| gamma (v=0.2c) | 1.020621 | : | Seccion 1 |
 | E_cin Starshot (1g, 0.2c) | 1.853e12 | J | Seccion 2.3 |
 | T_eq vela (eps=0.1, R=99.99%) | 3240 | K | Seccion 4.2 |
 | T_eq vela (eps=0.5, R=99.99%) | 2167 | K | Seccion 4.2 |
 | E_cin Daedalus (50kt, 0.12c) | 3.271e22 | J | Seccion 2.4 |
 | Delta_t sincronizacion | 1.393e10 | ms | Seccion 5.1 |
 | E_Alcubierre | 1.706e44 | J | Seccion 2.2 |
-| SNR optico (1 MW, 4.37 al) | 18.33 | — | Seccion 5.1 |
+| SNR optico (1 MW, 4.37 al) | 18.33 | : | Seccion 5.1 |
 | Costo array laser | 1.35e11 | USD | Seccion 4.3 |
 | Costo antimateria (1 g) | 6.4e15 | USD | Seccion 2.5 |
 | Tiempo colonizacion galactica | 1.2e7 | anos | Seccion 6.1 |
@@ -141,17 +141,17 @@ Si ejecutas `verificar_todo()` en cualquier maquina, con cualquier SO, el hash D
 | [FlexSailSim](https://github.com/Starshot-Lightsail/FlexSailSim) | 6 | Simulador velas Starshot (Caltech) |
 | [MIT-STARLab/Optical-Link-Budget](https://github.com/MIT-STARLab/Optical-Link-Budget) | 25 | Link budget optico (Python/MATLAB) |
 | [pykep](https://github.com/esa/pykep) | 411 | Diseno trayectorias interplanetarias (ESA) |
-| [PINT](https://github.com/nanograv/PINT) | — | Timing de pulsares (NANOGrav) |
+| [PINT](https://github.com/nanograv/PINT) | : | Timing de pulsares (NANOGrav) |
 
 ---
 
 ## Datasets abiertos utilizados
 
-- [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) — +5500 exoplanetas confirmados
-- [IBEX (NASA/Princeton)](https://ibex.princeton.edu/DataRelease) — Medio interestelar local (LISM)
-- [CRaTER (LRO)](http://crater-web.sr.unh.edu/) — Radiacion cosmica galactica
-- [SPICE Toolkit (NASA/NAIF)](https://naif.jpl.nasa.gov/naif/toolkit.html) — Efemerides planetarias
-- [CDS VizieR](https://vizier.cds.unistra.fr/) — Catalogos astronomicos
+- [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) : +5500 exoplanetas confirmados
+- [IBEX (NASA/Princeton)](https://ibex.princeton.edu/DataRelease) : Medio interestelar local (LISM)
+- [CRaTER (LRO)](http://crater-web.sr.unh.edu/) : Radiacion cosmica galactica
+- [SPICE Toolkit (NASA/NAIF)](https://naif.jpl.nasa.gov/naif/toolkit.html) : Efemerides planetarias
+- [CDS VizieR](https://vizier.cds.unistra.fr/) : Catalogos astronomicos
 
 ---
 
@@ -161,7 +161,7 @@ Si ejecutas `verificar_todo()` en cualquier maquina, con cualquier SO, el hash D
 
 - ORCID: [0009-0007-7474-7560](https://orcid.org/0009-0007-7474-7560)
 - GitHub: [CienciaEstelar](https://github.com/CienciaEstelar)
-- Email: juan1993@proton.me
+- Email: juan.galaz@proton.me
 - Santiago, Chile
 
 ---
@@ -172,7 +172,7 @@ Si ejecutas `verificar_todo()` en cualquier maquina, con cualquier SO, el hash D
 @article{galaz2026propulsion,
   title={{De Alcubierre a la Ingenieria: Una Evaluacion Critica
           de los Conceptos de Propulsion Interestelar (1994-2026)}},
-  author={Galaz Amengual, Juan D.},
+  author={Galaz, Juan},
   journal={En preparacion para Acta Astronautica},
   year={2026},
   note={Repositorio: github.com/CienciaEstelar/propulsion-interestelar}
