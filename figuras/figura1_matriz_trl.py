@@ -76,6 +76,24 @@ ax.set_title("Figura 1: Madurez tecnológica vs. requisito energético de\nconce
 ax.set_xlim(0, 9.5)
 ax.set_ylim(1, 1e55)
 
+# ── Barras de error (análisis de sensibilidad) ──
+# TRL: incertidumbre de ±1 nivel (subjetividad de la clasificación)
+# Energía: incertidumbre de ±1 orden de magnitud (variabilidad de diseños)
+for nombre, trl, energia, cat, fisica in conceptos:
+    if trl >= 2:  # Solo para conceptos con TRL asignable
+        color_err = color_map[fisica]
+        # Barra horizontal (TRL ±1)
+        ax.errorbar(trl, energia, xerr=1.0, fmt='none', ecolor=color_err,
+                    alpha=0.15, linewidth=0.8, capsize=0, zorder=1)
+        # Barra vertical (energía ±1 orden magnitud)
+        ax.errorbar(trl, energia, yerr=[[energia*0.9], [energia*9.0]], fmt='none',
+                    ecolor=color_err, alpha=0.15, linewidth=0.8, capsize=0, zorder=1)
+
+# ── Nota metodológica ──
+ax.text(0.02, 0.02, "Barras: ±1 nivel TRL (horizontal)\n±1 orden magnitud energía (vertical)",
+        transform=ax.transAxes, fontsize=6, color=COLORS["text"], fontstyle="italic",
+        bbox=dict(boxstyle="round,pad=0.2", facecolor="white", edgecolor=COLORS["grid"], alpha=0.8))
+
 # Leyenda de tipos de física
 from matplotlib.lines import Line2D
 leyenda_fisica = [
