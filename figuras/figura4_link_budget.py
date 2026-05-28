@@ -123,11 +123,15 @@ ax2.text(0.98, 0.92, f"SNR total = {snr_ref:.1f}\nP_rx = {P_rx_ideal[idx_ref]:.2
          transform=ax2.transAxes, fontsize=8, ha="right", va="top",
          bbox=dict(boxstyle="round,pad=0.3", facecolor="white", edgecolor=COLORS["grid"], alpha=0.9))
 
-# Anotar: la scintilación es la fuente dominante a alta potencia
+# Anotar: la fuente dominante depende de la potencia del laser
+# A 10 kW: scintilacion atmosferica domina (~105 fotones/bit)
+# A >1 MW: jitter de apuntamiento se vuelve comparable (~5% de la senal)
+# A >1 GW: fondo estelar contribuye significativamente
 idx_max = np.argmax(valores)
-ax2.annotate("Fuente\ndominante", xy=(idx_max, valores[idx_max]),
-            fontsize=7, ha="center", color=COLORS["especulativa"], fontweight="bold",
-            xytext=(idx_max + 0.5, valores[idx_max] * 1.3),
+ax2.annotate(f"Fuente dominante\na P_laser = {P_REF/1e3:.0f} kW\n(la dominancia cambia\ncon la potencia)",
+            xy=(idx_max, valores[idx_max]),
+            fontsize=6.5, ha="center", color=COLORS["especulativa"], fontweight="bold",
+            xytext=(idx_max + 0.6, valores[idx_max] * 1.4),
             arrowprops=dict(arrowstyle="->", color=COLORS["especulativa"], lw=1.2))
 
 plt.suptitle("Figura 4: Presupuesto de enlace óptico Tierra–α Centauri con modelo completo de ruido",
