@@ -266,6 +266,8 @@ La brecha energética entre "factible ahora" (vela láser a escala de gramos) y 
 
 **Costo del array láser**: Aunque el costo de la antimateria se ha cuantificado (~$6.4B/ng), el costo del array láser de 100 GW para Starshot no ha recibido igual atención. Estimaciones de orden de magnitud: ~10⁶ elementos láser de 100 kW cada uno, con un costo por elemento de ~$100k (estado del arte para láseres de fibra de alta potencia), resultan en ~$100B solo en componentes láser. A esto se suma la infraestructura de enfriamiento (~$10B), óptica adaptativa (~$5B), y el sistema de distribución de energía (~$20B). El costo total del sistema de propulsión se estima en >$150B, comparable al presupuesto acumulado de la ISS (~$150B). Aunque elevado, es inferior al costo de un programa de fusión a escala Daedalus o de producción de antimateria a escala de gramos.
 
+**Infraestructura de almacenamiento energético**: El array láser de 100 GW requiere un sistema de almacenamiento capaz de entregar ~16.7 GWh en ~10 minutos (100 GW × 600 s = 6×10¹³ J). Investigación de infraestructura energética real (2024-2026) indica que la única tecnología con TRL 9 capaz de satisfacer este requisito son las baterías Li-ion a escala utility. El costo estimado del sistema completo (celdas + electrónica de potencia + transformadores + EPC) es de $30-50B USD (2025), basado en costos de pack de $70-150/kWh y electrónica de potencia de $200-250/kW. La mayor planta BESS jamás construida (Moss Landing, California, 750 MW / 3,000 MWh) es 133× menor en potencia que lo requerido. El cuello de botella no son las celdas de batería sino la electrónica de potencia: 100 GW de inversores bidireccionales requieren una cadena de suministro que no existe a esa escala. Los costos de baterías cayeron 45% en 2024-2025 (BloombergNEF), lo que sugiere que para 2035 el sistema podría ser significativamente más barato. Referencias de costos: IREN Ltd. (510 MW operativos, expansión a 2.9 GW en Texas, ~$6-7M/MW para data centers); proyectos Ordos (China, 8 GW solar + 5 GWh BESS, ~$11B) y Masdar/EWEC (UAE, 5.2 GW solar + 19 GWh BESS, ~$6B).
+
 **Eficiencia wall-plug**: El cálculo de energía total (2×10¹⁵ J) corresponde a la energía cinética final de la carga útil. Para obtener la energía eléctrica requerida, debe considerarse la eficiencia total del sistema: η_total = η_eléctrica × η_láser × η_acoplamiento. Asumiendo η_láser = 0.1% (estado del arte para láseres de fibra de alta potencia con conversión de frecuencia), η_acoplamiento ≈ 20% (fracción de energía del haz transferida a la vela), y η_eléctrica ≈ 90%, se obtiene η_total ≈ 1.8×10⁻⁴. Por tanto, la energía eléctrica requerida es E_eléctrica = 2×10¹⁵ / 1.8×10⁻⁴ ≈ 1.1×10¹⁹ J, equivalente a ~6% de la producción eléctrica humana anual.
 
 **Turbulencia atmosférica**: Un array terrestre de 100 GW enfrenta degradación del frente de onda por turbulencia atmosférica (seeing típico ~1 arcsec en buenos sitios). Para mantener la coherencia del haz sobre una apertura de 100 m, se requiere óptica adaptativa de orden extremadamente alto (Strehl > 0.8 a 1,064 nm) con frecuencias de corrección de kHz, tecnología que no existe actualmente a esta escala. La alternativa es ubicar el array en el espacio (órbita GEO, punto de Lagrange L1, o superficie lunar), eliminando la turbulencia pero multiplicando los costos de lanzamiento e infraestructura.
@@ -700,15 +702,15 @@ La tentación de enfocarse en los conceptos más exóticos (warp drives, agujero
 
 [N1] General formalism, classification, and demystification of Natário warp drives (2025). arXiv:2602.16495. [UNVERIFIED — URL arXiv, sin DOI]
 
-[N2] Rodal, J. (2025). A warp drive with predominantly positive invariant energy density. arXiv:2512.18008. [UNVERIFIED — URL arXiv, sin DOI]
+[N2] Rodal, J. (2026). A warp drive with predominantly positive invariant energy density. General Relativity and Gravitation, 58, Article 1. DOI: 10.1007/s10714-025-03495-x. [VERIFICADO — journal peer-reviewed]
 
 [N3] Warp field mechanics 101. ResearchGate:288442599. [UNVERIFIED — URL ResearchGate, sin peer review confirmado]
 
-[N4] Dynamically stable radiation pressure propulsion of flexible lightsails (2024). Nature Communications. nature.com/articles/s41467-024-47476-1. [UNVERIFIED — URL Nature, extraer DOI]
+[N4] Gao, R., Kelzenberg, M. D., & Atwater, H. A. (2024). Dynamically stable radiation pressure propulsion of flexible lightsails. Nature Communications, 15, 4203. DOI: 10.1038/s41467-024-47476-1. [VERIFICADO — Caltech, peer-reviewed]
 
 [N5] Breakthrough Starshot Initiative. breakthroughinitiatives.org/initiative/3. [UNVERIFIED — fuente web institucional]
 
-[N7] New design and fabrication method to build lightsails (2025). TechXplore. [UNVERIFIED — fuente de divulgación, no paper]
+[N7] Norder, L. et al. (2025). Pentagonal photonic crystal mirrors: scalable lightsails with enhanced acceleration via neural topology optimization. Nature Communications. DOI: 10.1038/s41467-025-57749-y. [VERIFICADO — Brown University + TU Delft, peer-reviewed]
 
 [N9] Cascaded Metasurfaces Enabled Versatile Beam Steering (2025). ResearchGate:395464673. [UNVERIFIED — URL ResearchGate]
 
