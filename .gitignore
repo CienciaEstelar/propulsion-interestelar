@@ -1,0 +1,24 @@
+# Paper Interestelar - Archivos generados
+output/
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Datos intermedios
+datos/*.json
+!datos/corpus_referencias.json
+.venv/
+*.goutputstream*
