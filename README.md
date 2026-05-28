@@ -1,7 +1,7 @@
 # Propulsion Interestelar : Paper de Revision Cientifica
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
-[![DOI](https://img.shields.io/badge/DOI-Zenodo--pending-orange)](https://zenodo.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20435538.svg)](https://doi.org/10.5281/zenodo.20435538)
 [![License](https://img.shields.io/badge/License-CC--BY%204.0-green)](LICENSE)
 [![Repo](https://img.shields.io/badge/repo-CienciaEstelar%2Fpropulsion--interestelar-purple)](https://github.com/CienciaEstelar/propulsion-interestelar)
 [![Hash](https://img.shields.io/badge/reproducible-SHA256--verified-success)](datos/hash_reproducibilidad.json)

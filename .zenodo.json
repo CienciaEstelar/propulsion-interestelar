@@ -1,0 +1,37 @@
+{
+  "creators": [
+    {
+      "orcid": "0009-0007-7474-7560",
+      "affiliation": "Investigador Independiente, Santiago, Chile",
+      "name": "Galaz, Juan"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "title": "De Alcubierre a la Ingenieria: Una Evaluacion Critica de los Conceptos de Propulsion Interestelar (1994-2026)",
+  "keywords": [
+    "interstellar propulsion",
+    "warp drive",
+    "laser sail",
+    "Breakthrough Starshot",
+    "Von Neumann probes",
+    "nuclear fusion propulsion",
+    "TRL",
+    "lightsail",
+    "Alcubierre metric",
+    "beam-riding"
+  ],
+  "language": "spa",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/CienciaEstelar/propulsion-interestelar",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ],
+  "communities": [],
+  "grants": [],
+  "version": "1.0.0"
+}
