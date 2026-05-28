@@ -22,3 +22,15 @@ datos/*.json
 !datos/corpus_referencias.json
 .venv/
 *.goutputstream*
+
+# Archivos locales (no para repo público)
+scibot_literatura*.txt
+_generar_notebook.py
+AUDITORIA_PAPER.md
+gaps_identificados.md
+matriz_ingenieria.md
+sintesis_critica.md
+REVIEW_FINAL.md
+COVER_LETTER.md
+doi_verification.json
+output/
