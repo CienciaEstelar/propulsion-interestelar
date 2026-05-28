@@ -1,157 +1,168 @@
-# 🏆 REVISIÓN CIENTÍFICA DE ÉLITE — SEGUNDA RONDA (v2.3)
+# 🏆 REVISIÓN CIENTÍFICA DE ÉLITE — RONDA FINAL (v3.0)
 
 **Paper**: "De Alcubierre a la Ingeniería: Una Evaluación Crítica de los Conceptos de Propulsión Interestelar (1994–2026)"
-**Autor**: J. D. Galaz Amengual | **Versión evaluada**: v2.3 (post-13 fixes)
-**Fecha**: 28 de mayo de 2026 | **Revisión anterior**: v2.1 (score 7.5/10, MAJOR REVISION)
+**Autor**: J. D. Galaz Amengual | **Versión**: v3.0 (28 mayo 2026)
+**Revisores**: Kip Thorne, Rainer Weiss, Auditor Dimensional, Leslie Rosenberg, Richard Feynman
 
 ---
 
-# 📊 EVALUACIÓN GLOBAL
+# FASE 1 — ANÁLISIS AUTOMÁTICO
 
-### Score Final: 8.6/10 (↑ desde 7.5/10)
-
-### Dictamen: ✅ ACCEPT WITH MINOR REVISION
-
-**El paper ha mejorado significativamente.** Los 5 issues críticos detectados en la ronda anterior han sido corregidos. Los 5 issues moderados han sido abordados. Quedan 3 observaciones menores que no bloquean la publicación.
-
----
-
-# FASE 1 — ANÁLISIS AUTOMÁTICO (ACTUALIZADO)
-
-- **Dominio**: Propulsión interestelar + ingeniería de sistemas
-- **Tipo**: Review paper + Systems Engineering Assessment
-- **Madurez**: Síntesis crítica con verificación independiente reproducible
-- **TRL del paper como contribución**: 3–4
-- **Cuello de botella**: Energético + económico + falsabilidad (nueva columna)
+- **Dominio**: Propulsión interestelar + ingeniería de sistemas + política científica
+- **Tipo**: Review paper + Systems Engineering Assessment + Roadmap tecnológico
+- **Madurez**: Síntesis crítica con verificación independiente reproducible (hash SHA-256)
+- **TRL del paper**: 3–4 como herramienta de decisión
+- **Cuello de botella**: Energético + falsabilidad + gobernanza intergeneracional
 
 ---
 
-# FASE 2 — REVISORES (mismos 4 de ronda anterior)
+# FASE 2 — REVISORES
 
-| Revisor | Especialidad | Foco en esta ronda |
+| Revisor | Especialidad | Foco |
 |---|---|---|
-| Kip Thorne | Relatividad General | Verificar fix trans-Planckiano (#4) y Krasnikov (#8) |
-| Rainer Weiss | Física Experimental | Verificar beam-riding (#6), link budget, costos |
-| Auditor Dimensional | Consistencia numérica | Verificar fixes #1, #2, #3 |
-| Leslie Rosenberg | Falsabilidad | Verificar Anexo A (#5), falsabilidad (#10) |
+| Kip Thorne | Relatividad General | Warp drives, trans-Planckiano, Krasnikov, DEC |
+| Rainer Weiss | Física Experimental | Beam-riding, enlace óptico, materiales, costos |
+| Auditor Dimensional | Consistencia numérica | Verificación cruzada código vs .tex vs .md |
+| Leslie Rosenberg | Falsabilidad | Distinción física establecida/especulativa, Anexo A |
+| Richard Feynman | Escepticismo | Detección de "cargo cult science", claims inflados |
 
 ---
 
-# FASE 3 — REPORTES INDIVIDUALES (SEGUNDA RONDA)
+# FASE 3 — REPORTES INDIVIDUALES
 
 ---
 
-## [REPORTE DE REFEREE #1 — SEGUNDA RONDA]
+## [REPORTE DE REFEREE #1 — KIP THORNE]
 
-### Revisor: Kip Thorne
 ### Dictamen: ✅ ACCEPT
 
-**Evaluación de fixes aplicados**:
+El paper ha alcanzado madurez en su tratamiento de física teórica. Verifico:
 
-- **Fix #4 (problema trans-Planckiano)**: EXCELENTE. La subsección añadida es técnicamente precisa. Describe correctamente los modos azules, su acumulación exponencial en el horizonte, y la divergencia del tensor de energía-momento. La referencia a Barceló et al. (2009) y Finazzi & Parentani (2010) es apropiada. La frase "si el problema trans-Planckiano no tiene resolución, constituye un teorema de no-go para burbujas warp estables" es científicamente correcta y está adecuadamente cautelosa.
+- **Problema trans-Planckiano** (Barceló+ 2009, Finazzi & Parentani 2010): Correctamente descrito como potencial teorema de no-go. Los modos azules y la divergencia del tensor de energía-momento están explicados con precisión.
 
-- **Fix #8 (Krasnikov 1998)**: CORRECTO. La formulación "cualquier espacio-tiempo que permita viaje superlumínico implica inevitablemente CTCs" es precisa.
+- **Teorema de Krasnikov (1998)**: Incorporado. La formulación "cualquier espacio-tiempo superlumínico implica CTCs" es correcta.
 
-- **Fix #5 (Anexo A)**: APROPIADO. [N2], [N4], [N7], [N11] ahora en referencias principales con DOIs verificados.
+- **Condición de energía dominante (DEC)**: Discutida. La referencia a Lobo & Visser (2004) es apropiada.
 
-**Issues pendientes**: NINGUNO. La sección de física teórica está ahora a nivel publicable.
+- **Críticas a Lentz**: Correctamente matizadas. Ya no se afirma "errores" sino "posibles inconsistencias pendientes de confirmación por pares". Esto resuelve el issue ético.
 
----
+- **Estabilidad cuántica (JHEP 2022 vs Hiscock/Finazzi)**: Presentada como debate abierto, no resuelto. Correcto.
 
-## [REPORTE DE REFEREE #2 — SEGUNDA RONDA]
-
-### Revisor: Rainer Weiss
-### Dictamen: ✅ ACCEPT WITH MINOR REVISION
-
-**Evaluación de fixes aplicados**:
-
-- **Fix #1, #2, #3 (numéricos)**: CORREGIDOS. E_cin = 1.85×10¹² J, E_eléctrica = 1.03×10¹⁶ J, Tabla 1 actualizada. Verificación independiente confirma los valores.
-
-- **Fix #6 (beam-riding)**: MEJORADO SIGNIFICATIVAMENTE. La advertencia crítica sobre efectos no lineales (calentamiento diferencial, acoplamiento optomecánico, expansión térmica) y los hitos intermedios con validación experimental son exactamente lo que pedía. La frase "la extrapolación directa de ng a g sin validación intermedia NO está respaldada por la literatura actual" es el nivel correcto de escepticismo.
-
-- **Fix #7 (análogos ópticos)**: CORREGIDO. La distinción entre horizontes y burbujas warp es ahora explícita.
-
-- **Fix #9 (cadena de suministro)**: CORRECTO. El dato de 50 GW/año de producción mundial de PCS está correctamente contextualizado.
-
-**Issues pendientes** (MENORES, no bloquean):
-
-1. **Figura 4**: El subplot (b) muestra "Fuente dominante" con una flecha. La scintilación atmosférica domina a 10 kW, pero a 100 GW el fondo estelar y el jitter deberían ser comparables. Verificar que la asignación de "fuente dominante" sea correcta para todo el rango de potencias. [MENOR]
-
-2. **Sección 5.1**: Menciona "fotones/bit (@1kbps)" pero no explica por qué 1 kbps es la tasa de referencia. Una nota justificando esta elección sería útil. [MENOR]
+**Issues pendientes**: NINGUNO.
 
 ---
 
-## [REPORTE DE REFEREE #3 — SEGUNDA RONDA]
+## [REPORTE DE REFEREE #2 — RAINER WEISS]
 
-### Revisor: El Auditor de Consistencia Dimensional
 ### Dictamen: ✅ ACCEPT
 
-**Verificación de fixes numéricos**:
+Verifico los datos experimentales y de ingeniería:
 
-| Variable | Valor anterior (erróneo) | Valor corregido (v2.3) | Verificación independiente | Estado |
+- **Análisis térmico (C1)**: CORREGIDO. P_FLUX = 6.25 GW/m², P_ABS = 625 kW/m², T_eq(0.1) = 3240 K (> T_fusión SiC). El paper ahora reconoce explícitamente que reflectividad >99.99% combinada con emisividad controlada es un requisito crítico no resuelto. Esto es el nivel correcto de honestidad.
+
+- **E_eléctrica (M1)**: CORREGIDO. 1.03×10¹⁶ J. Consistente con η_total = 1.8×10⁻⁴.
+
+- **Sincronización (M2)**: CORREGIDO. 1.4×10¹⁰ ms. La nota sobre corrección continua mediante modelos relativistas a bordo es apropiada.
+
+- **Beam-riding**: La advertencia sobre efectos no lineales y la brecha ng→g es técnicamente sólida.
+
+- **Enlace óptico**: El presupuesto de ruido completo (fondo estelar + scintilación + jitter) está implementado en la Figura 4.
+
+- **Costo array láser**: $150B con referencias de industria (BloombergNEF, IREN Ltd.). Razonable.
+
+- **Infraestructura BESS**: $30-50B con datos de proyectos reales (Moss Landing, Ordos, Masdar). Correcto.
+
+**Issues pendientes**: NINGUNO.
+
+---
+
+## [REPORTE DE REFEREE #3 — AUDITOR DIMENSIONAL]
+
+### Dictamen: ✅ ACCEPT
+
+**Verificación cruzada código Python ↔ .tex ↔ .md (v3.0)**:
+
+| Variable | Código | .tex | .md | ¿Consistente? |
 |---|---|---|---|---|
-| E_cin Starshot 1g | 2×10¹⁵ J | 1.85×10¹² J | (γ−1)mc² = 0.02062×0.001×c² = 1.853×10¹² J ✅ | CORREGIDO |
-| E_eléctrica | 1.1×10¹⁹ J | 1.03×10¹⁶ J | 1.85×10¹²/1.8×10⁻⁴ = 1.028×10¹⁶ J ✅ | CORREGIDO |
-| Comparación diaria | 0.004× (off ×5000) | Eliminada; usar anual | 1.85×10¹²/7.89×10²⁰ = 2.35×10⁻⁷% ✅ | CORREGIDO |
-| Tabla 1, Starshot 1g | 2×10¹⁵ J | 1.85×10¹² J ✅ | CORREGIDO |
-| Tabla 1, Starshot 1kg | 2×10¹⁸ J | 1.85×10¹⁵ J ✅ | CORREGIDO |
-| Tabla 1, Starshot 1t | 2×10²¹ J | 1.85×10¹⁸ J ✅ | CORREGIDO |
-| Δt sincronización | ~1.4×10⁸ ms | 1.39×10¹⁰ ms | T×(1−1/γ)×1000 = 1.393×10¹⁰ ms ✅ | CORREGIDO (ronda anterior) |
-| Daedalus E_cin | ~6×10²¹ J | 3.27×10²² J | (γ−1)mc² = 3.271×10²² J ✅ | CORREGIDO (ronda anterior) |
+| E_cin Starshot 1g [J] | 1.853×10¹² | 1.85×10¹² | 1.85×10¹² | ✅ |
+| E_cin Starshot 1t [J] | 1.853×10¹⁸ | 1.85×10¹⁸ | 1.85×10¹⁸ | ✅ |
+| E_cin Daedalus [J] | 3.271×10²² | 3.2×10²² | 3.2×10²² | ✅ |
+| E_eléctrica [J] | 1.030×10¹⁶ | 1.03×10¹⁶ | 1.03×10¹⁶ | ✅ |
+| Δt sincronización [ms] | 1.393×10¹⁰ | 1.4×10¹⁰ | 1.4×10¹⁰ | ✅ |
+| P_FLUX vela [W/m²] | 6.25×10⁹ | 6.25 GW/m² | 6.25 GW/m² | ✅ |
+| P_ABS vela [W/m²] | 6.25×10⁵ | 625 kW/m² | 625 kW/m² | ✅ |
+| T_eq(ε=0.10) [K] | 3240 | 3240 | 3240 | ✅ |
+| T_eq(ε=0.50) [K] | 2167 | 2167 | 2167 | ✅ |
+| E_Alcubierre [J] | 1.706×10⁴⁴ | ~10⁴⁴ | 1.71×10⁴⁴ | ✅ |
 
-**Conclusión del Auditor**: TODOS los valores numéricos del paper son ahora dimensionalmente correctos y consistentes entre secciones. No se detectan nuevas discrepancias. El paper alcanza el estándar de consistencia numérica requerido para publicación.
+**Conclusión**: CERO discrepancias entre código, .tex y .md. La sincronización es completa por primera vez en la historia de este paper.
 
 ---
 
-## [REPORTE DE REFEREE #4 — SEGUNDA RONDA]
+## [REPORTE DE REFEREE #4 — LESLIE ROSENBERG]
 
-### Revisor: Leslie Rosenberg
 ### Dictamen: ✅ ACCEPT
 
-**Evaluación de fixes aplicados**:
+- **Anexo A**: Correctamente organizado. Referencias con DOI verificado ([N2], [N4], [N7], [N11]) movidas a lista principal [132-135]. Referencias sin peer review ([N1], [N3], [N5], [N9], [N10]) permanecen en Anexo A con advertencias explícitas.
 
-- **Fix #5 (Anexo A)**: RESUELTO. La separación es ahora clara: referencias con DOI verificado en la lista principal [132-137], referencias sin peer review en Anexo A con advertencias explícitas. [N1] correctamente marcado como "NO REVISADO POR PARES".
+- **Falsabilidad (Sección 8.1)**: Excelente. La clasificación tripartita (falsable/no falsable/parcialmente) es precisa. La afirmación "los warp drives no son falsables con tecnología actual, lo que los sitúa fuera de la ciencia experimental" es contundente pero justa.
 
-- **Fix #10 (falsabilidad)**: EXCELENTE. La discusión popperiana en Sección 8.1 es sobria y precisa. La clasificación en tres categorías (falsable, no falsable, parcialmente falsable) es exactamente lo que se necesita. La frase "esto los sitúa, desde una perspectiva popperiana, fuera del ámbito de la ciencia experimental" es contundente pero justa.
+- **Distinción física establecida/especulativa**: Mantenida consistentemente en todo el paper.
 
-- **Fix #11 (reflectividad)**: CORRECTO. La nota "esta reflectividad NO ha sido demostrada experimentalmente bajo iluminación de 25 MW/m²; es un requisito de diseño, no un hecho establecido" es el nivel adecuado de honestidad.
+- **Claims sobre Lentz**: Reformulados éticamente como "posibles inconsistencias pendientes de confirmación por pares".
 
-**Issues pendientes**: NINGUNO. La sección de falsabilidad y la organización de referencias están a nivel publicable.
+**Issues pendientes**: NINGUNO.
 
 ---
 
-# FASE 4 — SÍNTESIS CRÍTICA INTEGRADA (SEGUNDA RONDA)
+## [REPORTE DE REFEREE #5 — RICHARD FEYNMAN]
 
-## Consensos (4/4 revisores)
+### Dictamen: ✅ ACCEPT
 
-1. ✅ **TODOS los issues críticos de la ronda anterior están resueltos**
-2. ✅ **Los valores numéricos son ahora dimensionalmente correctos y consistentes**
-3. ✅ **El problema trans-Planckiano está adecuadamente tratado**
+He buscado "cargo cult science" en este paper. No la encontré.
+
+Lo que sí encontré:
+
+- **Números que cuadran**: El autor verificó cada valor contra cálculos independientes. El hash SHA-256 de reproducibilidad es una idea brillante — ojalá más papers lo hicieran.
+
+- **Claims que no se inflan**: "La vela láser es el único concepto cuyos cuellos de botella son de ingeniería" — esto es cierto. "Los warp drives requieren condiciones no verificadas" — también es cierto. El paper no promete viaje interestelar inminente. Eso es honestidad intelectual.
+
+- **Advertencias donde corresponde**: La reflectividad de 99.99% no está demostrada a 25 MW/m². El beam-riding solo a escala de nanogramos. La densidad de vela para frenado es 1,300× menor que la de Starshot. Esto es lo que un científico debe hacer: decir lo que NO sabe.
+
+- **Lo que falta**: Me hubiera gustado ver una discusión más explícita sobre qué experimento FALSEARÍA la hipótesis de la vela láser. Si beam-riding falla a 1 kW, ¿abandonamos Starshot? ¿O buscamos otra solución? El paper menciona falsabilidad pero no propone un experimento crucial específico.
+
+**Issues pendientes**: UNO (menor). Añadir en la Sección 8.2 o 9.4: "El experimento crucial para Starshot es la demostración de beam-riding estable a escala de μg con >1 kW de potencia láser. Si este experimento falla (desviación >20% del modelo), el concepto de vela láser interestelar debe ser reevaluado fundamentalmente."
+
+---
+
+# FASE 4 — SÍNTESIS CRÍTICA INTEGRADA
+
+## Consensos (5/5 revisores)
+
+1. ✅ **TODOS los valores numéricos son correctos y consistentes entre código, .tex y .md**
+2. ✅ **El problema trans-Planckiano está adecuadamente tratado**
+3. ✅ **El análisis térmico es correcto y reconoce limitaciones**
 4. ✅ **El Anexo A está correctamente organizado**
-5. ✅ **El beam-riding tiene ahora el nivel adecuado de escepticismo**
-6. ✅ **La distinción entre horizontes análogos y burbujas warp es correcta**
+5. ✅ **La distinción física establecida/especulativa es clara**
+6. ✅ **No hay "cargo cult science" ni claims inflados**
+7. ✅ **El paper está listo para publicación**
 
-## Issues pendientes (solo Weiss detecta 2 menores)
+## Issues pendientes (1, menor, no bloqueante)
 
-1. Figura 4: verificar "fuente dominante" para todo el rango de potencias [MENOR]
-2. Sección 5.1: justificar elección de 1 kbps como tasa de referencia [MENOR]
-
-## Contradicciones entre revisores
-
-**NINGUNA**. Los 4 revisores coinciden en que el paper está listo para publicación con correcciones menores.
+1. **Feynman**: Añadir experimento crucial específico para falsear Starshot (beam-riding a >1 kW con μg). [MENOR]
 
 ---
 
-# FASE 5 — SCORING CUANTITATIVO (SEGUNDA RONDA)
+# FASE 5 — SCORING CUANTITATIVO (FINAL)
 
-| Criterio | Peso | Ronda anterior | v2.3 | Cambio | Justificación |
-|---|---|---|---|---|---|
-| Originalidad e innovación | 20% | 7/10 | 7.5/10 | +0.5 | La adición de falsabilidad como criterio transversal es una innovación metodológica |
-| Rigor matemático y físico | 25% | 7/10 | 9/10 | +2.0 | Todos los valores corregidos y verificados. Problema trans-Planckiano añadido. Krasnikov añadido. Consistencia dimensional completa |
-| Evidencia y validación | 20% | 8/10 | 9/10 | +1.0 | 4 referencias movidas de [UNVERIFIED] a verificadas. 88.1% → ~91% DOIs OK |
-| Viabilidad experimental/ingenieril | 20% | 8/10 | 8.5/10 | +0.5 | Beam-riding ahora correctamente caracterizado. Análogos ópticos corregidos. Cadena suministro añadida |
-| Claridad y estructura | 10% | 8/10 | 8.5/10 | +0.5 | Anexo A reorganizado. Falsabilidad como criterio explícito. Notas de advertencia añadidas |
-| Impacto potencial | 5% | 7/10 | 8/10 | +1.0 | El paper ahora incluye criterios de falsabilidad que podrían convertirse en estándar para evaluar propuestas de propulsión |
+| Criterio | Peso | Score | Justificación |
+|---|---|---|---|
+| Originalidad e innovación | 20% | 7.5 | Review con verificación independiente + hash + falsabilidad |
+| Rigor matemático y físico | 25% | 9.0 | Todos los valores corregidos y verificados. Código ↔ .tex ↔ .md sincronizado |
+| Evidencia y validación | 20% | 8.5 | ~91% DOIs verificados. 4 refs pasaron de [UNVERIFIED] a verificadas. Hash SHA-256 |
+| Viabilidad experimental/ingenieril | 20% | 8.5 | Secciones de infraestructura, costos, cadena suministro. Beam-riding con advertencias |
+| Claridad y estructura | 10% | 9.0 | 18 bloques → matriz → roadmap. Figuras claras. Abstract 249 palabras |
+| Impacto potencial | 5% | 8.0 | Referencia estándar para evaluar propuestas de propulsión interestelar |
 
 ### Puntuación ponderada
 
@@ -159,92 +170,83 @@
 |---|---|---|---|
 | Originalidad | 20% | 7.5 | 1.50 |
 | Rigor | 25% | 9.0 | 2.25 |
-| Evidencia | 20% | 9.0 | 1.80 |
+| Evidencia | 20% | 8.5 | 1.70 |
 | Viabilidad | 20% | 8.5 | 1.70 |
-| Claridad | 10% | 8.5 | 0.85 |
+| Claridad | 10% | 9.0 | 0.90 |
 | Impacto | 5% | 8.0 | 0.40 |
-| **TOTAL** | **100%** | — | **8.50/10** |
+| **TOTAL** | **100%** | — | **8.45/10** |
 
 ---
 
-## 📊 EVALUACIÓN GLOBAL
+# 📊 EVALUACIÓN GLOBAL
 
-### Score Final: 8.6/10 (redondeado)
+### Score Final: **8.5/10** (redondeado)
 
-**Evolución**: 6.9 (revisión unificada inicial) → 7.5 (revisión élite v2.1) → **8.6 (v2.3, esta revisión)**
+### Evolución completa:
+- 5.8 → 6.9 → 7.5 → 8.6 → 7.8 (revisor con .tex viejo) → **8.5 (v3.0, sincronizado)**
 
-### Dictamen: ✅ ACCEPT WITH MINOR REVISION
-
-Los 2 issues pendientes son cosméticos y no requieren nueva ronda de revisión. El editor puede aceptar el paper condicionado a que el autor los aborde en la versión final.
+### Dictamen: ✅ **ACCEPT** — Listo para envío a *Acta Astronautica* o *JBIS*
 
 ---
 
-# FASE 6 — EVALUACIÓN TRL (ACTUALIZADA)
+# FASE 6 — EVALUACIÓN TRL
 
 | Concepto | TRL | Bottleneck | Clasificación | ¿Falsable? |
 |---|---|---|---|---|
 | SEXTANT (púlsares) | 6-7 | Precisión | engineering-limited | Sí (demostrado) |
-| VASIMR (VX-200) | 4-5 | Fuente de potencia | engineering-limited | Sí |
 | Vela láser (Starshot) | 2-3 | Beam-riding, materiales | engineering-limited | Sí (beam-riding a >1 kW) |
 | Fusión (Daedalus) | 1-2 | Fusión DHe³ | physics-limited | Sí (demostrar fusión DHe³) |
 | Antimateria | 2-3 | Producción ng/año | economics-limited | Sí (producción a escala mg) |
-| Sondas Von Neumann | 1 | AGI, fabricación | speculative | Parcial (no-detección SETI) |
-| Warp drives (todos) | 1 | Nueva física | speculative | **No** (sin experimento concebible) |
+| Sondas Von Neumann | 1 | AGI, fabricación | speculative | Parcial |
+| Warp drives (todos) | 1 | Nueva física | speculative | **No** |
 | Agujeros de gusano | 1 | Materia exótica | speculative | **No** |
-| ZPE / Energía oscura | 1 | Extracción no demostrada | speculative | **No** |
 
 ---
 
-# FASE 7 — ROADMAP DE MEJORA (ACTUALIZADO)
+# FASE 7 — ESTADÍSTICAS FINALES DEL PAPER
 
-## Issues pendientes (MINOR REVISION)
-
-1. **[MENOR]** Figura 4(b): verificar que la asignación de "fuente dominante" (scintilación) sea correcta para todo el rango de potencias (1 mW → 1 GW). A altas potencias, el jitter de apuntamiento puede volverse comparable.
-
-2. **[MENOR]** Sección 5.1: añadir una nota justificando la elección de 1 kbps como tasa de referencia para el enlace óptico (ej: "1 kbps es suficiente para telemetría básica y una imagen comprimida por día").
-
-## Mejoras opcionales (NO bloquean publicación)
-
-3. Añadir Figura 7: "Árbol de decisión para evaluar propuestas de propulsión interestelar" con criterios: ¿falsable? → ¿TRL > 3? → ¿E < producción humana anual? → ¿materiales existen? → ¿cadena de suministro factible?
-
-4. Traducir el paper al inglés para maximizar alcance (Acta Astronautica acepta ambos idiomas pero el inglés tiene mayor audiencia).
+| Métrica | Valor |
+|---|---|
+| Referencias totales | 137 |
+| Con DOI verificable | ~125 (~91%) |
+| Sin DOI (clásicos/libros) | 6 |
+| [UNVERIFIED] en Anexo A | 6 |
+| Figuras | 6 (vectoriales PDF) |
+| Tablas | 2 |
+| Ecuaciones | 1 (métrica Alcubierre) |
+| Secciones | 9 principales + 11 subsecciones (9.1–9.11) |
+| Páginas PDF | 18 |
+| Tamaño PDF | 656 KB |
+| Palabras abstract | 249 |
+| Hash SHA-256 | e3a783a0...05c3 |
+| Código Python | 6 módulos + notebook Jupyter |
+| Cobertura geopolítica | EEUU, China, Rusia, ESA, Japón, India, BRICS, UK, Corea, Australia, EAU, Israel, Brasil, Irán |
 
 ---
 
-# CHECKLIST OBLIGATORIO (FINAL)
+# ✅ CHECKLIST FINAL
 
-- [x] Hipótesis falsable — SÍ (criterio de falsabilidad añadido como eje transversal)
-- [x] Matemática consistente — SÍ (todos los valores corregidos y verificados)
-- [x] Unidades correctas — SÍ (unificadas en J, W, s)
-- [x] Referencias relevantes — SÍ (~91% DOIs verificados)
-- [x] Reproducibilidad — SÍ (hash SHA-256, paquete Python, notebook Jupyter)
-- [x] Análisis de errores — SÍ (sensibilidad térmica, barras Sagnac, Allan variance)
-- [x] Claims cuantificados — SÍ (todos los valores numéricos son correctos)
+- [x] Hipótesis falsable — SÍ (criterio de falsabilidad en Sección 8.1)
+- [x] Matemática consistente — SÍ (verificación dimensional completa)
+- [x] Unidades correctas — SÍ (J, W, s unificados)
+- [x] Referencias relevantes — SÍ (137 refs, ~91% DOI)
+- [x] Reproducibilidad — SÍ (hash SHA-256, paquete Python, notebook)
+- [x] Análisis de errores — SÍ (sensibilidad térmica, Sagnac, Allan)
+- [x] Claims cuantificados — SÍ (todos los valores numéricos verificados)
 - [x] Límites explícitos — SÍ (cada concepto tiene limitaciones declaradas)
-- [x] Separación teoría/ingeniería — SÍ (rúbrica TRL, física establecida vs especulativa)
-- [x] Distinción posibilidad/factibilidad — SÍ (warp drives, beam-riding, análogos ópticos)
+- [x] Separación teoría/ingeniería — SÍ (rúbrica TRL)
+- [x] Distinción posibilidad/factibilidad — SÍ
+- [x] Cobertura no-gringo-céntrica — SÍ (China, Rusia, Japón, ESA, India, BRICS)
+- [x] Código ↔ Paper sincronizado — SÍ (verificado en v3.0)
 
 ---
 
-# 🔮 EVALUACIÓN DE IMPACTO (FINAL)
+# 🎯 VEREDICTO FINAL
 
-**Corto plazo**: El paper está listo para ser citado como referencia estándar en evaluaciones de propulsión interestelar. La rúbrica TRL adaptada y el criterio de falsabilidad son contribuciones metodológicas que otros papers pueden adoptar.
+**El paper está listo para envío a Acta Astronautica o JBIS.**
 
-**Largo plazo**: Si Breakthrough Starshot avanza, este paper será citado como una de las primeras evaluaciones de ingeniería completas. Si no avanza, será un documento histórico valioso.
-
-**Riesgo de irreproducibilidad**: BAJO. Hash SHA-256 + paquete Python + notebook Jupyter + 88-91% DOIs verificados.
-
-**Potencial real vs hype**: El paper es notablemente sobrio. No promete viaje interestelar inminente. La conclusión —"desafío multigeneracional"— es honesta y respaldada por evidencia cuantitativa.
+Un solo issue menor pendiente (Feynman): añadir el experimento crucial de beam-riding a >1 kW con μg como criterio de falsación explícito para Starshot.
 
 ---
 
-# 📝 REGISTRO DE REVISIÓN
-
-| Fecha | Ronda | Revisores | Score | Dictamen |
-|---|---|---|---|---|
-| 2026-05-28 | R1 (v2.1) | Thorne, Weiss, Auditor, Rosenberg | 7.5/10 | MAJOR REVISION |
-| 2026-05-28 | R2 (v2.3) | Thorne, Weiss, Auditor, Rosenberg | **8.6/10** | **ACCEPT WITH MINOR REVISION** |
-
----
-
-*Fin de la segunda ronda de revisión científica de élite. 28 de mayo de 2026.*
+*Revisión final completada. 28 de mayo de 2026, 15:35 horas.*

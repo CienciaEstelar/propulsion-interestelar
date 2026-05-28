@@ -397,6 +397,7 @@ Nuestros hallazgos principales son:
 ### 8.2 Hoja de ruta priorizada
 
 **En menos de 10 años (antes de 2036):**
+- **Experimento crucial de falsación para Starshot**: demostración de beam-riding estable a escala de μg con >1 kW de potencia láser continua. Si este experimento falla (desviación >20% del modelo de estabilidad pasiva), el concepto de vela láser interestelar debe ser reevaluado fundamentalmente. Este es el criterio de falsación popperiano que distingue la vela láser de conceptos no falsables como los warp drives.
 - Demostración en laboratorio de beam-riding con metasuperficies a >100 W de potencia láser continua
 - Experimentos de erosión del ISM usando aceleradores de iones para validar modelos de Hoang (2017) a velocidades equivalentes >0.1c
 - Análisis completo de presupuesto de enlace de comunicación para α Centauri, publicado con cálculos detallados de SNR y apertura
