@@ -549,6 +549,38 @@ Tres desarrollos recientes modifican significativamente el panorama de viabilida
 
 Estos cinco vectores —costos láser, velas inteligentes, fusión D-He3, baterías avanzadas, fotónica integrada— no garantizan el éxito de la propulsión interestelar, pero modifican cualitativamente el espacio de posibilidades. Una revisión realizada en 2020 habría considerado la vela láser como "físicamente posible pero económicamente prohibitiva". En 2026, la evidencia sugiere que el cuello de botella se está desplazando de "económicamente prohibitivo" a "económicamente extremo pero concebible". La diferencia es sutil pero fundamental: es la diferencia entre "imposible" y "cuestión de voluntad política".
 
+### 9.9 La revolución del acceso orbital y su impacto en misiones interestelares
+
+El costo de acceso a órbita está colapsando a nivel mundial. En 2026, **14+ empresas privadas en 8 países** tienen capacidad de lanzamiento orbital operacional o en desarrollo avanzado. Esta transformación tiene implicaciones directas para la infraestructura interestelar:
+
+**Estados Unidos** lidera en reutilización: Blue Origin New Glenn (45,000 kg a LEO, primer reuso de booster demostrado en abril 2026), Rocket Lab Neutron (13,000 kg, NET mediados 2026), y Stoke Space Nova —el único vehículo diseñado para reutilización COMPLETA de ambas etapas, con escudo térmico metálico activamente refrigerado— apuntan a costos de $50-100M por lanzamiento pesado. Relativity Space Terran R (33,500 kg, impresión 3D masiva) debutará a finales de 2026.
+
+**China** ha construido en 5 años un ecosistema de lanzadores privados sin paralelo: LandSpace (Zhuque-2E, 6,000 kg a LEO, metano, operacional), CAS Space (Kinetica-2, 12,000 kg, debut exitoso en marzo 2026, ~$4,350/kg —comparable a Falcon 9), iSpace (Hyperbola-3, 8,500 kg reutilizable, debut NET finales 2026), Orienspace (Gravity-1, 6,500 kg, lanzamiento marítimo), y Space Pioneer (Tianlong-3, 17,000 kg). El cohete super-pesado Long March 9 (150,000 kg, totalmente reutilizable, ~2030-35) promete capacidad de lanzamiento a escala de misión interestelar.
+
+**Europa** tiene 3 empresas en fase avanzada: RFA ONE alemán (~$3M/lanzamiento, 1,600 kg, debut NET julio 2026 desde Escocia), Isar Aerospace Spectrum (1,000 kg, financiación ESA >€205M), y PLD Space Miura 5 español (540 kg, €180M Serie C con Mitsubishi Electric, debut finales 2026 desde Kourou).
+
+**India** tendrá su primer lanzamiento orbital privado en 2026: Skyroot Aerospace Vikram-1 (350 kg, unicornio valorado en $1.1B) y Agnikul Cosmos Agnibaan (motor semi-criogénico impreso 3D, 300 kg).
+
+**Implicación para propulsión interestelar**: Si la tendencia de reducción de costos continúa (Falcon 9 redujo $/kg en ~90% en una década, y 14+ competidores globales están entrando al mercado), construir infraestructura orbital a escala interestelar — arrays láser, velas, estaciones repetidoras— dejará de ser económicamente prohibitivo en las décadas 2040-2050. El verdadero cuello de botella ya no será el lanzamiento, sino la fabricación en órbita y la electrónica de potencia.
+
+### 9.10 Destinos interestelares: estado del arte 2024-2026
+
+La lista de destinos a menos de 5 pársecs con planetas en zona habitable se ha refinado significativamente:
+
+| Sistema | Distancia (pc) | Planeta(s) en ZH | Masa (M_Tierra) | Novedad 2024-2025 |
+|---|---|---|---|---|
+| Próxima Centauri | 1.30 | Próxima b | 1.055 ± 0.055 | Confirmado con NIRPS infrarrojo (Suárez Mascareño+ 2025) |
+| Ross 128 | 3.37 | Ross 128 b | ~1.4 | Sin nuevas observaciones |
+| Estrella de Luyten | 3.80 | Luyten b | ~2.9 | Sin nuevas observaciones |
+| Teegarden's Star | 3.83 | Teegarden b, c | 1.16, 1.05 | Tercer planeta (d) confirmado (Dreizler+ 2024) |
+| Estrella de Barnard | 1.83 | — | — | **4 sub-Tierras** confirmadas (ESPRESSO+MAROON-X 2024-2025), pero todas fuera de ZH (~125-160°C) |
+
+JWST está activamente caracterizando atmósferas de exoplanetas cercanos: TRAPPIST-1 b muestra evidencia de roca desnuda ultramáfica o atmósfera de CO₂ puro (Nature Astronomy 2025); TRAPPIST-1 e descartó atmósferas dominadas por H₂ a >3σ (ApJL 2025). La Propuesta JWST 6456 (128.8 horas, 2024-2025) busca detectar atmósfera tipo Tierra en TRAPPIST-1 e combinando datos de los 7 planetas.
+
+Tres objetos interestelares confirmados en <10 años (ʻOumuamua 2017, Borisov 2019, 3I/ATLAS 2025) demuestran que los ISOs son una población frecuente. 3I/ATLAS (4-15 km, el mayor de los tres) no era alcanzable con tecnología actual (Comet Interceptor requería salida en 2023, cuando el objeto era indetectable). Esto crea una demanda concreta para propulsión avanzada: interceptar un ISO en tiempos humanos (<10 años) requiere velocidades de crucero >0.1c.
+
+Breakthrough Listen no ha detectado tecno-firmas en 2,841 estrellas (Painter+ 2025), con un límite de <1% de estrellas albergando transmisores más brillantes que ~0.3× el radar de Arecibo. La paradoja de Fermi se agudiza: si las velas láser son físicamente viables, ¿por qué no vemos sus firmas? Esto no es un argumento contra la viabilidad física de Starshot, pero sí un recordatorio de que la detectabilidad de la propulsión interestelar (Sección 7.3) es una restricción observacional real.
+
 ---
 
 ## Referencias
