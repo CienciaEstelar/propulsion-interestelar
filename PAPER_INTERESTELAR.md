@@ -581,6 +581,41 @@ Tres objetos interestelares confirmados en <10 años (ʻOumuamua 2017, Borisov 2
 
 Breakthrough Listen no ha detectado tecno-firmas en 2,841 estrellas (Painter+ 2025), con un límite de <1% de estrellas albergando transmisores más brillantes que ~0.3× el radar de Arecibo. La paradoja de Fermi se agudiza: si las velas láser son físicamente viables, ¿por qué no vemos sus firmas? Esto no es un argumento contra la viabilidad física de Starshot, pero sí un recordatorio de que la detectabilidad de la propulsión interestelar (Sección 7.3) es una restricción observacional real.
 
+### 9.11 Programas mundiales de propulsión nuclear espacial
+
+La propulsión nuclear —tanto térmica (NTP) como eléctrica (NEP)— es el puente natural entre la propulsión química actual y la propulsión interestelar avanzada. Presentamos el estado de los programas a nivel mundial en 2026.
+
+**Estados Unidos — cancelación y reenfoque.** El programa DARPA DRACO (Nuclear Thermal Propulsion, $499M, Lockheed Martin + BWXT) fue **cancelado en mayo de 2025** tras completar la Preliminary Design Review. DARPA citó el desplome de costos de lanzamiento (SpaceX) y la reevaluación estratégica hacia NEP como razones. El presupuesto FY2026 de NASA eliminó TODO el financiamiento para NTP y NEP. Sin embargo, el programa **JETSON** (AFRL/US Space Force, $33.7M, 6-20 kWe, TRL 4-5) continúa, con SpaceNukes (spin-out de Los Alamos) desarrollando un reactor Kilopower de 12 kWe para demostración en vuelo. SpaceNukes y Ad Astra (VASIMR) firmaron un MoU en diciembre 2024 para desarrollar NEP de alta potencia (100 kW+ → multi-MW), con demostración en vuelo prevista para 2029-2030. El reactor de superficie lunar **FSP** (NASA/DOE) fue acelerado en 2025: requisito elevado a 100 kWe, despliegue target 2029. Westinghouse (microreactor eVinci) recibió contrato de continuación en enero 2025.
+
+**China — el programa más ambicioso del mundo.** El consorcio liderado por Wu Yican (Academia China de Ciencias, 10+ institutos) completó en 2024 las pruebas en tierra de un **reactor espacial de 1.5 MWe** — 7× más potente que el diseño NASA FSP original de 20 kWe. Refrigerado por litio líquido con ciclo Brayton cerrado de He-Xe, masa <8 toneladas, 10+ años de vida útil. Las pruebas usaron calentador eléctrico externo (>100 kW); la integración con barras de combustible de nitruro de uranio está en curso. El lema en las instalaciones: "Innovar o perecer. Sin excusas." China y Rusia firmaron en mayo de 2025 un MoU para instalar un reactor nuclear automatizado en la superficie lunar (ILRS) para 2033-2035.
+
+**Rusia — KNOW-HOW sin presupuesto.** Rusia es la única nación que ha operado rutinariamente reactores de fisión en el espacio (31 BUK + 2 TOPAZ-I, 1970-1988). El proyecto **ZEVS/TEM** (remolcador nuclear clase megavatio, motores iónicos, diseño preliminar completado en julio 2024 por KB Arsenal, ~$46M) carece de financiamiento dedicado según admisión del director de Roscosmos ante la Duma. Aviation Week reportó una posible cancelación o refocalización hacia potencia de superficie, pero no hay confirmación oficial en fuentes abiertas. La colaboración con China en ILRS es su ruta más viable.
+
+**Europa — dos programas paralelos.** La ESA avanza en dos frentes: **Alumni** (NTP, consorcio CEA + ArianeGroup + Framatome Space, nucleo cermet, propergol H₂ o NH₃, TRL 2-3, estudio de factibilidad completado en junio 2025) y **RocketRoll** (NEP, liderado por Tractebel, 11 socios, hoja de ruta a demostrador en 2035). Ambos buscan crear una cadena de valor soberana europea en propulsión nuclear espacial, con sinergias en potencia de superficie lunar/marciana.
+
+**Reino Unido — micro-reactores modulares.** Rolls-Royce, con Oxford y Bangor University, desarrolla un micro-reactor espacial (~40 kWe, refrigerado por gas, combustible TRISO encapsulado en capas cerámicas, £8.88M acumulados en financiamiento UKSA 2023-2024). Diseño de sistema completo en curso hasta principios de 2026. Primera prueba orbital prevista para ~2029. El reactor se lanza inerte y solo se activa en órbita segura.
+
+**India — entrada incipiente.** ISRO + BARC desarrollan conceptualmente NTP y un RTG de 100W. TRL 2-3. Herencia del RHU de Pu-238 que voló exitosamente en Chandrayaan-3.
+
+**Tabla comparativa de programas de propulsión nuclear espacial (2026).**
+
+| Programa | País | Tipo | Potencia | TRL | Estado |
+|---|---|---|---|---|---|
+| DRACO (DARPA/NASA) | EEUU | NTP | No revelado | 4-5 | **CANCELADO (mayo 2025)** |
+| JETSON (AFRL/Space Force) | EEUU | NEP | 6-20 kWe | 4-5 | Activo |
+| SpaceNukes + Ad Astra | EEUU | NEP | 100 kW+ → MW | 3-4 | Activo (MoU dic 2024) |
+| NASA FSP (superficie lunar) | EEUU | Superficie | 40→100 kWe | 3-4 | Activo (target 2029) |
+| Kilopower/KRUSTY (LANL) | EEUU | Demo tierra | 1-10 kWe | 5-6 | Completado (2018) |
+| Wu Yican (CAS) | China | NEP/NTP | 1.5 MWe | 3-4 | Activo (pruebas en tierra) |
+| ILRS lunar (China-Rusia) | CHN-RUS | Superficie | 0.5-1 MW | 1-2 | Planificado (2033-35) |
+| ZEVS/TEM (KB Arsenal) | Rusia | NEP | MW-class | 3-4 | Incierto (sin presupuesto) |
+| Alumni (ESA) | Europa | NTP | No revelado | 2-3 | Activo (estudio factibilidad) |
+| RocketRoll (ESA) | Europa | NEP | No revelado | 2-3 | Activo (roadmap 2035) |
+| Rolls-Royce (UKSA) | Reino Unido | Superficie/Prop | 40 kWe+ | 3-4 | Activo (diseño sistema) |
+| ISRO/BARC (India) | India | NTP | No revelado | 2-3 | Conceptual |
+
+**Implicaciones para propulsión interestelar**: (1) La cancelación de DRACO marca el fin de la apuesta estadounidense por NTP gubernamental — el futuro es NEP comercial. (2) China está invirtiendo agresivamente en potencia nuclear espacial sin las restricciones regulatorias que limitan a EEUU y Europa. (3) El reactor chino de 1.5 MWe, si se acopla a propulsores iónicos de alta eficiencia, podría alimentar misiones al sistema solar exterior en tiempos comparables a los de la vela láser para destinos dentro de ~50 UA. (4) Ningún reactor de fisión ha volado al espacio desde SNAP-10A (EEUU, 1965) — todos los programas actuales están compitiendo por ser el segundo de la historia. (5) La convergencia global hacia reactores lunares (~2029-2035) precederá y catalizará capacidades de propulsión nuclear para espacio profundo: la misma tecnología que alimenta una base lunar puede alimentar una sonda interestelar.
+
 ---
 
 ## Referencias
