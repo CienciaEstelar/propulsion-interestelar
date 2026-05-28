@@ -50,15 +50,11 @@ propulsion-interestelar/
 │   ├── figura4_link_budget.py     #   Presupuesto enlace optico + ruido
 │   ├── figura5_sincronizacion.py  #   Sincronizacion relativista
 │   └── figura6_gaps_cobertura.py  #   Mapa de cobertura del corpus
-├── output/
-│   ├── PAPER_INTERESTELAR.pdf     # PDF compilado (18pp, 646KB)
-│   └── figuras/                   # Figuras vectoriales (PDF + PNG)
+├── datos/                         # Datos de verificacion
+│   ├── hash_reproducibilidad.json #   Hash SHA-256 de referencia
+│   └── resultados_calculos.json   #   Resultados numericos completos
 ├── literatura_procesada.md        # Corpus original (82 refs, Bloques 1-9)
 ├── literatura_procesada_v2.md     # Corpus ampliado (97 refs, Bloques 10-18)
-├── gaps_identificados.md          # Gaps y contradicciones en la literatura
-├── matriz_ingenieria.md           # Matriz comparativa de 28 conceptos
-├── sintesis_critica.md            # Respuestas a 6 preguntas clave
-├── AUDITORIA_PAPER.md             # Auditoria final con verificacion Crossref
 ├── compile_paper.py               # Compilador automatico (figuras -> LaTeX -> PDF)
 ├── calculos_paper.py              # TODOS los calculos en un solo script
 ├── verify_dois.py                 # Verificacion DOIs contra Crossref API (88.1%)
@@ -80,8 +76,16 @@ pip install -r requirements.txt
 # Verificar TODOS los calculos (debe producir el hash de referencia)
 python -m derivaciones.reproducibilidad
 
+# Ejecutar el notebook Jupyter
+jupyter notebook derivaciones_paper.ipynb
+
 # Generar las 6 figuras
-python figuras/generar_figuras.py
+python figuras/figura1_matriz_trl.py
+python figuras/figura2_evolucion_warp.py
+python figuras/figura3_arquitectura.py
+python figuras/figura4_link_budget.py
+python figuras/figura5_sincronizacion.py
+python figuras/figura6_gaps_cobertura.py
 
 # Compilar el PDF (requiere pandoc + LaTeX)
 python compile_paper.py
