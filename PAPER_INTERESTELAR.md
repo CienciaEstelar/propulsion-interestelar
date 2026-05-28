@@ -14,7 +14,7 @@
 
 ## Resumen
 
-La propulsión interestelar ha evolucionado desde un ejercicio puramente teórico hasta un paisaje de paradigmas de ingeniería en competencia. Esta revisión evalúa críticamente seis décadas de conceptos de propulsión interestelar —desde la métrica de Alcubierre (1994) hasta Breakthrough Starshot (2018), diseños de fusión nuclear (Daedalus, Icarus, VASIMR), propulsión por antimateria, velas láser, y sondas autorreplicantes Von Neumann— integrando 155 referencias en 18 bloques temáticos. Construimos una matriz comparativa de ingeniería para 28 conceptos, ordenándolos por nivel de madurez tecnológica (TRL), dependencia de física especulativa y proximidad a validación experimental. Tres hallazgos principales emergen. Primero, ningún concepto de propulsión interestelar capaz de alcanzar otra estrella supera TRL 3; los sistemas de mayor TRL (navegación por púlsares SEXTANT en TRL 6-7, VASIMR en TRL 4-5) son subsistemas o están limitados a la exploración del medio interestelar local. Segundo, el "avance de energía positiva" post-2021 en teoría de warp drives —incluyendo Lentz (2021), Bobrick y Martire (2021) y Fell y Heisenberg (2018)— elimina exitosamente los requisitos de energía negativa pero los reemplaza con condiciones físicas (densidades de plasma no observadas, gravedad de Einstein-Cartan, teorías de gravedad modificada) que permanecen sin verificación experimental. Tercero, el paradigma de vela láser representa el único concepto cuyos cuellos de botella principales son de ingeniería (materiales, coherencia óptica, estabilidad de beam-riding) y no de física fundamental, con un requerimiento energético de aproximadamente 2×10¹⁵ J para una carga útil de 1 gramo a 0.2c, equivalente a aproximadamente 0.004 veces el consumo energético diario humano (basado en un consumo diario global de ~5×10¹⁷ J). Identificamos avances significativos en comunicación interestelar (enlaces ópticos con tasas de kbps-Mbps factibles con tecnología ELT), blindaje (polietileno + boro reduce dosis de rayos cósmicos en ~35%), y frenado en destino (combinación vela magnética + eléctrica logra desaceleración en ~29 años desde 0.05c). Concluimos con una hoja de ruta priorizada: demostración de beam-riding en laboratorio en <10 años, prueba de vela suborbital en <15 años, y misiones precursoras interestelares a ~200 UA en <20 años. El viaje interestelar a otra estrella sigue siendo un desafío de ingeniería multigeneracional cuyos obstáculos principales son energéticos y económicos, no teóricos.
+La propulsión interestelar ha evolucionado desde un ejercicio puramente teórico hasta un paisaje de paradigmas de ingeniería en competencia. Esta revisión evalúa críticamente seis décadas de conceptos de propulsión interestelar —desde la métrica de Alcubierre (1994) hasta Breakthrough Starshot (2018), diseños de fusión nuclear (Daedalus, Icarus, VASIMR), propulsión por antimateria, velas láser, y sondas autorreplicantes Von Neumann— integrando 155 referencias en 18 bloques temáticos. Construimos una matriz comparativa de ingeniería para 28 conceptos, ordenándolos por nivel de madurez tecnológica (TRL), dependencia de física especulativa y proximidad a validación experimental. Tres hallazgos principales emergen. Primero, ningún concepto de propulsión interestelar capaz de alcanzar otra estrella supera TRL 3; los sistemas de mayor TRL (navegación por púlsares SEXTANT en TRL 6-7, VASIMR en TRL 4-5) son subsistemas o están limitados a la exploración del medio interestelar local. Segundo, el "avance de energía positiva" post-2021 en teoría de warp drives —incluyendo Lentz (2021), Bobrick y Martire (2021) y Fell y Heisenberg (2018)— elimina exitosamente los requisitos de energía negativa pero los reemplaza con condiciones físicas (densidades de plasma no observadas, gravedad de Einstein-Cartan, teorías de gravedad modificada) que permanecen sin verificación experimental. Tercero, el paradigma de vela láser representa el único concepto cuyos cuellos de botella principales son de ingeniería (materiales, coherencia óptica, estabilidad de beam-riding) y no de física fundamental, con un requerimiento energético de aproximadamente 1.85×10¹² J para una carga útil de 1 gramo a 0.2c, equivalente a aproximadamente 2.3×10⁻⁷% de la producción energética humana anual (~7.9×10²⁰ J). Identificamos avances significativos en comunicación interestelar (enlaces ópticos con tasas de kbps-Mbps factibles con tecnología ELT), blindaje (polietileno + boro reduce dosis de rayos cósmicos en ~35%), y frenado en destino (combinación vela magnética + eléctrica logra desaceleración en ~29 años desde 0.05c). Concluimos con una hoja de ruta priorizada: demostración de beam-riding en laboratorio en <10 años, prueba de vela suborbital en <15 años, y misiones precursoras interestelares a ~200 UA en <20 años. El viaje interestelar a otra estrella sigue siendo un desafío de ingeniería multigeneracional cuyos obstáculos principales son energéticos y económicos, no teóricos.
 
 **Palabras**: 249
 
@@ -117,7 +117,7 @@ Un artículo de 2022 en el Journal of High Energy Physics presentó un análisis
 
 **Nuevo enfoque experimental (2024-2026)**: Se ha propuesto detectar warp drives mediante la búsqueda de ondas gravitacionales emitidas durante el colapso de una burbuja de curvatura —una "brecha del núcleo warp"— usando detectores como LIGO/Virgo [Bloque 19].
 
-Everett (1996) mostró que la métrica de Alcubierre permite curvas temporales cerradas (CTCs) y violaciones de causalidad con una modificación simple [18]. Esto no es un defecto único de los warp drives —todo viaje superlumínico en relatividad general implica la posibilidad de CTCs— pero significa que cualquier warp drive funcional necesariamente confronta el problema de la causalidad.
+Everett (1996) mostró que la métrica de Alcubierre permite curvas temporales cerradas (CTCs) y violaciones de causalidad con una modificación simple [18]. Krasnikov (1998) generalizó este resultado demostrando que **cualquier** espacio-tiempo que permita viaje superlumínico (incluyendo warp drives, agujeros de gusano traversables, y cualquier otra geometría con curvas tipo-espacio que conecten regiones causalmente desconectadas) implica inevitablemente la existencia de CTCs [137]. Este no es un defecto específico de los warp drives —es una propiedad genérica de cualquier geometría superlumínica en relatividad general— pero significa que cualquier warp drive funcional necesariamente confronta el problema de la causalidad, con todas sus paradojas asociadas.
 
 ### 2.3 Propulsión por vela láser (Breakthrough Starshot)
 
@@ -131,7 +131,7 @@ Parkin (2018) publicó el modelo de sistema más completo hasta la fecha [4]. La
 - Crucero hasta Alpha Centauri durante ~20 años a 0.2c
 - Retorno de datos usando la misma vela como antena óptica limitada por difracción
 
-El requisito energético es aproximadamente 2×10¹⁵ J para una carga útil de 1 gramo, equivalente a aproximadamente 0.004 veces el consumo energético diario humano (basado en un consumo diario global de ~5×10¹⁷ J) o 0.5 Mt de TNT. Este es el único concepto de propulsión interestelar cuyo presupuesto energético está dentro de la capacidad tecnológica humana actual.
+El requisito energético es aproximadamente 1.85×10¹² J para una carga útil de 1 gramo, equivalente a aproximadamente 2.3×10⁻⁷% de la producción energética humana anual (~7.9×10²⁰ J) o 0.5 Mt de TNT. Este es el único concepto de propulsión interestelar cuyo presupuesto energético está dentro de la capacidad tecnológica humana actual.
 
 **Actualización 2024-2026**: El diseño de velas ha evolucionado desde superficies reflectantes lisas hacia metamateriales mecánicos y nanofotónicos. Estos nuevos diseños permiten que la vela sea plana, requiriendo únicamente ser rotada para mantener rigidez y absorber el empuje del láser sin colapsar. Un estudio de 2024 en Nature Communications demostró propulsión por presión de radiación dinámicamente estable para velas flexibles [N4]. Nuevos métodos de fabricación de cristales fotónicos nanoestructurados para velas Starshot fueron reportados en 2025 [N7].
 
@@ -151,7 +151,7 @@ Pendry et al. (2019) propusieron "metasails multifuncionales" que combinan estab
 
 #### Materiales para velas láser
 
-La vela debe satisfacer simultáneamente cuatro restricciones: (a) reflectividad >99.99% a la longitud de onda del láser para sobrevivir 100 GW de potencia incidente, (b) densidad superficial <1 g/m² para maximizar aceleración, (c) resistencia mecánica para sobrevivir el gradiente de aceleración (~10⁴ g durante la fase de impulso), y (d) estabilidad térmica para manejar la pequeña fracción de potencia absorbida.
+La vela debe satisfacer simultáneamente cuatro restricciones: (a) reflectividad >99.99% a la longitud de onda del láser para sobrevivir 100 GW (**NOTA: esta reflectividad NO ha sido demostrada experimentalmente bajo iluminación de 25 MW/m²; es un requisito de diseño, no un hecho establecido**) de potencia incidente, (b) densidad superficial <1 g/m² para maximizar aceleración, (c) resistencia mecánica para sobrevivir el gradiente de aceleración (~10⁴ g durante la fase de impulso), y (d) estabilidad térmica para manejar la pequeña fracción de potencia absorbida.
 
 Fan et al. (2015) demostraron grafeno monocapa con resistencia a la tracción de 130 GPa y módulo de Young de 1 TPa [23], satisfaciendo los criterios mecánicos. Hu et al. (2020) desarrollaron aerogeles de nanotubos de carbono con densidad <10 mg/cm³ [11]. El estado del arte actual para velas ultraligeras de alta reflectividad son apilados dieléctricos multicapa, pero ningún material satisface simultáneamente las cuatro restricciones a la escala requerida.
 
@@ -213,7 +213,7 @@ El avance de energía positiva elimina un cuello de botella (energía negativa) 
 
 2. **Dependencia de gravedad modificada**: Tanto los warp drives de clase II/III de Bobrick-Martire como la solución de Einstein-Cartan de Fell-Heisenberg requieren teorías de gravedad más allá de la relatividad general. Estas modificaciones permanecen sin verificación experimental.
 
-3. **Estabilidad**: El artículo de JHEP 2022 [17] sugiere estabilidad semicásica para burbujas warp en 3+1 dimensiones, pero esto contradice análisis anteriores de Hiscock (1997) [15] y Finazzi (2009) [16]. La discrepancia puede surgir de diferentes esquemas de aproximación semicásica.
+3. **Estabilidad cuántica y el problema trans-Planckiano**: El artículo de JHEP 2022 [17] sugiere estabilidad semicásica para burbujas warp en 3+1 dimensiones, pero esto contradice análisis anteriores de Hiscock (1997) [15] y Finazzi (2009) [16]. Más fundamentalmente, existe el **problema trans-Planckiano** (Barceló et al. 2009, Finazzi & Parentani 2010): cualquier horizonte en una burbuja warp actúa como un horizonte de agujero blanco, amplificando fluctuaciones cuánticas hasta energías trans-Planckianas donde la aproximación semicásica deja de ser válida. Los modos azules (blue modes) que se propagan hacia atrás en el tiempo desde el infinito futuro se acumulan exponencialmente en el horizonte, produciendo una divergencia del tensor de energía-momento cuántico que ninguna elección de estado cuántico puede cancelar. Este argumento es más robusto que las condiciones de energía clásicas porque NO depende de la materia exótica: es una propiedad geométrica de cualquier horizonte superlumínico en gravedad semicásica. Si el problema trans-Planckiano no tiene resolución, constituye un **teorema de no-go** para burbujas warp estables, independientemente de si la WEC se satisface o no.
 
 4. **La cota de Pfenning-Ford**: Las restricciones de desigualdad cuántica derivadas por Pfenning y Ford (1997) [3] aplican específicamente a densidades de energía negativa en gravedad semicásica. Si restricciones análogas aplican a las soluciones de energía positiva es una pregunta abierta.
 
@@ -240,9 +240,9 @@ La Tabla 1 presenta los requisitos energéticos de los principales conceptos de 
 | Concepto | Energía/Potencia | Equivalente producción humana | Referencia |
 |---|---|---|---|
 | Civilización humana (2025) | ~2.5×10¹³ W (~1.8×10²⁰ J/año) | 1× | — |
-| Vela láser, 1g a 0.2c | ~2×10¹⁵ J | 0.01× diario | Parkin 2018 [4] |
-| Vela láser, 1kg a 0.2c | ~2×10¹⁸ J | ~0.01× anual | Parkin escalado |
-| Vela láser, 1t a 0.2c | ~2×10²¹ J | ~10× anual | Parkin escalado |
+| Vela láser, 1g a 0.2c | ~1.85×10¹² J | 2.3×10⁻⁷% anual | Parkin 2018 [4]; verificado con E_cin = (γ−1)mc² |
+| Vela láser, 1kg a 0.2c | ~1.85×10¹⁵ J | 2.3×10⁻⁴% anual | Parkin escalado |
+| Vela láser, 1t a 0.2c | ~1.85×10¹⁸ J | 0.23% anual | Parkin escalado |
 | Antimateria, 1t a 0.5c | ~10²¹ J | ~5× anual | Kammash 1997 [34] |
 | Daedalus (50,000t a 0.12c) | ~3.2×10²² J | ~40× anual | BIS 1978 [24]; verificado con KE = (γ−1)mc² |
 | Alcubierre (original, burbuja 100m) | ~10⁵² J | ~10³²× anual | Alcubierre 1994 [1] |
@@ -266,15 +266,15 @@ La brecha energética entre "factible ahora" (vela láser a escala de gramos) y 
 
 **Costo del array láser**: Aunque el costo de la antimateria se ha cuantificado (~$6.4B/ng), el costo del array láser de 100 GW para Starshot no ha recibido igual atención. Estimaciones de orden de magnitud: ~10⁶ elementos láser de 100 kW cada uno, con un costo por elemento de ~$100k (estado del arte para láseres de fibra de alta potencia), resultan en ~$100B solo en componentes láser. A esto se suma la infraestructura de enfriamiento (~$10B), óptica adaptativa (~$5B), y el sistema de distribución de energía (~$20B). El costo total del sistema de propulsión se estima en >$150B, comparable al presupuesto acumulado de la ISS (~$150B). Aunque elevado, es inferior al costo de un programa de fusión a escala Daedalus o de producción de antimateria a escala de gramos.
 
-**Infraestructura de almacenamiento energético**: El array láser de 100 GW requiere un sistema de almacenamiento capaz de entregar ~16.7 GWh en ~10 minutos (100 GW × 600 s = 6×10¹³ J). Investigación de infraestructura energética real (2024-2026) indica que la única tecnología con TRL 9 capaz de satisfacer este requisito son las baterías Li-ion a escala utility. El costo estimado del sistema completo (celdas + electrónica de potencia + transformadores + EPC) es de $30-50B USD (2025), basado en costos de pack de $70-150/kWh y electrónica de potencia de $200-250/kW. La mayor planta BESS jamás construida (Moss Landing, California, 750 MW / 3,000 MWh) es 133× menor en potencia que lo requerido. El cuello de botella no son las celdas de batería sino la electrónica de potencia: 100 GW de inversores bidireccionales requieren una cadena de suministro que no existe a esa escala. Los costos de baterías cayeron 45% en 2024-2025 (BloombergNEF), lo que sugiere que para 2035 el sistema podría ser significativamente más barato. Referencias de costos: IREN Ltd. (510 MW operativos, expansión a 2.9 GW en Texas, ~$6-7M/MW para data centers); proyectos Ordos (China, 8 GW solar + 5 GWh BESS, ~$11B) y Masdar/EWEC (UAE, 5.2 GW solar + 19 GWh BESS, ~$6B).
+**Infraestructura de almacenamiento energético**: El array láser de 100 GW requiere un sistema de almacenamiento capaz de entregar ~16.7 GWh en ~10 minutos (100 GW × 600 s = 6×10¹³ J). Investigación de infraestructura energética real (2024-2026) indica que la única tecnología con TRL 9 capaz de satisfacer este requisito son las baterías Li-ion a escala utility. El costo estimado del sistema completo (celdas + electrónica de potencia + transformadores + EPC) es de $30-50B USD (2025), basado en costos de pack de $70-150/kWh y electrónica de potencia de $200-250/kW. La mayor planta BESS jamás construida (Moss Landing, California, 750 MW / 3,000 MWh) es 133× menor en potencia que lo requerido. El cuello de botella no son las celdas de batería sino la electrónica de potencia: 100 GW de inversores bidireccionales requieren una cadena de suministro que no existe a esa escala. La capacidad de producción MUNDIAL de electrónica de potencia para sistemas de baterías (PCS) es de aproximadamente 50 GW/año (IEA 2025). Construir 100 GW requeriría dedicar el 100% de la producción mundial durante 2 años exclusivamente a este proyecto, desplazando toda otra demanda (almacenamiento de red, vehículos eléctricos, data centers). Para contextualizar: la mayor planta BESS jamás construida (Moss Landing, California) tiene 0.75 GW de potencia — 133 veces menos que lo requerido. Los costos de baterías cayeron 45% en 2024-2025 (BloombergNEF), lo que sugiere que para 2035 el sistema podría ser significativamente más barato. Referencias de costos: IREN Ltd. (510 MW operativos, expansión a 2.9 GW en Texas, ~$6-7M/MW para data centers); proyectos Ordos (China, 8 GW solar + 5 GWh BESS, ~$11B) y Masdar/EWEC (UAE, 5.2 GW solar + 19 GWh BESS, ~$6B).
 
-**Eficiencia wall-plug**: El cálculo de energía total (2×10¹⁵ J) corresponde a la energía cinética final de la carga útil. Para obtener la energía eléctrica requerida, debe considerarse la eficiencia total del sistema: η_total = η_eléctrica × η_láser × η_acoplamiento. Asumiendo η_láser = 0.1% (estado del arte para láseres de fibra de alta potencia con conversión de frecuencia), η_acoplamiento ≈ 20% (fracción de energía del haz transferida a la vela), y η_eléctrica ≈ 90%, se obtiene η_total ≈ 1.8×10⁻⁴. Por tanto, la energía eléctrica requerida es E_eléctrica = 2×10¹⁵ / 1.8×10⁻⁴ ≈ 1.1×10¹⁹ J, equivalente a ~6% de la producción eléctrica humana anual.
+**Eficiencia wall-plug**: El cálculo de energía cinética (1.85×10¹² J) corresponde a la energía final de la carga útil. Para obtener la energía eléctrica requerida, debe considerarse la eficiencia total del sistema: η_total = η_eléctrica × η_láser × η_acoplamiento. Asumiendo η_láser = 0.1% (estado del arte para láseres de fibra de alta potencia con conversión de frecuencia), η_acoplamiento ≈ 20% (fracción de energía del haz transferida a la vela), y η_eléctrica ≈ 90%, se obtiene η_total ≈ 1.8×10⁻⁴. Por tanto, la energía eléctrica requerida es E_eléctrica = 1.85×10¹² / 1.8×10⁻⁴ ≈ 1.03×10¹⁶ J, equivalente a ~0.0013% de la producción eléctrica humana anual. NOTA: La Sección 6.2 contenía un valor incorrecto de ~1.1×10¹⁹ J (error de factor ~1000), corregido en esta versión.
 
 **Turbulencia atmosférica**: Un array terrestre de 100 GW enfrenta degradación del frente de onda por turbulencia atmosférica (seeing típico ~1 arcsec en buenos sitios). Para mantener la coherencia del haz sobre una apertura de 100 m, se requiere óptica adaptativa de orden extremadamente alto (Strehl > 0.8 a 1,064 nm) con frecuencias de corrección de kHz, tecnología que no existe actualmente a esta escala. La alternativa es ubicar el array en el espacio (órbita GEO, punto de Lagrange L1, o superficie lunar), eliminando la turbulencia pero multiplicando los costos de lanzamiento e infraestructura.
 
 **Problema de apuntamiento con latencia**: A 0.2 AU de distancia (típica al final de la fase de aceleración), la latencia de luz es de ~2 minutos (ida) + ~2 minutos (vuelta) = ~4 minutos de bucle cerrado. Esto impide la corrección en tiempo real del apuntamiento del haz. La solución requiere apuntamiento predictivo basado en modelos de trayectoria a bordo de la vela, con realimentación óptica mediante balizas laterales en la propia vela que permitan al array terrestre medir la posición relativa y corregir con ~4 minutos de anticipación.
 
-**Escalado de beam-riding**: Las demostraciones actuales de beam-riding con metasuperficies se han realizado a escala de nanogramos en laboratorios de fotónica. La brecha hasta una misión de 1 gramo implica 9 órdenes de magnitud en masa y un incremento proporcional en la potencia láser requerida. Se proponen hitos intermedios: escala de μg (2028, potencia ~1 kW), escala de mg (2032, potencia ~1 MW), y escala de g (2036+, potencia ~1 GW), cada uno con validación experimental independiente.
+**Escalado de beam-riding**: Las demostraciones actuales de beam-riding con metasuperficies se han realizado a escala de nanogramos en laboratorios de fotónica [20,21]. **ADVERTENCIA CRÍTICA**: La brecha hasta una misión de 1 gramo implica 9 órdenes de magnitud en masa (~10⁻¹² kg → 10⁻³ kg) y 15 órdenes de magnitud en potencia láser (~mW → 100 GW). Los efectos no lineales que son despreciables a escala de laboratorio se vuelven dominantes a alta potencia: (a) calentamiento diferencial que deforma la metasuperficie y cambia su respuesta óptica, (b) acoplamiento optomecánico no lineal entre el haz y la vela deformada, (c) expansión térmica que altera el patrón de difracción diseñado. Ninguno de estos efectos ha sido modelado a las potencias relevantes para una misión Starshot. Se proponen hitos intermedios con validación experimental independiente: escala de μg (2028, potencia ~1 kW), escala de mg (2032, potencia ~1 MW), y escala de g (2036+, potencia ~1 GW). Cada salto de 3 órdenes de magnitud en masa requiere demostración experimental antes de asumir viabilidad del siguiente. La extrapolación directa de ng a g sin validación intermedia NO está respaldada por la literatura actual.
 
 ### 4.4 Estabilidad y control
 
@@ -380,7 +380,9 @@ Un hallazgo colateral interesante del Bloque 16 es que las misiones de propulsi�
 
 ### 8.1 Resumen de hallazgos
 
-Esta revisión evaluó 28 conceptos de propulsión y navegación interestelar a través de 155 referencias en 18 bloques temáticos. Nuestros hallazgos principales son:
+Esta revisión evaluó 28 conceptos de propulsión y navegación interestelar a través de 155 referencias en 18 bloques temáticos. Un criterio transversal que emerge de este análisis es la **falsabilidad**: ¿puede el concepto ser refutado con tecnología actual o de futuro cercano? La vela láser es falsable (si beam-riding resulta inestable a >1 kW, el concepto es inviable). Los warp drives y agujeros de gusano NO son falsables con tecnología actual (no existe experimento concebible que demuestre su imposibilidad). Esto los sitúa, desde una perspectiva popperiana, fuera del ámbito de la ciencia experimental. Las sondas Von Neumann son parcialmente falsables (la no-detección de firmas tecnológicas acota el espacio de parámetros pero no demuestra imposibilidad). Recomendamos que toda propuesta de propulsión interestelar incluya una estrategia de falsación explícita.
+
+Nuestros hallazgos principales son:
 
 1. **Ningún concepto de propulsión interestelar a otra estrella supera TRL 3.** Los sistemas de mayor TRL son navegación (SEXTANT, TRL 6-7), propulsión eléctrica en órbita terrestre (VASIMR, TRL 4-5), y materiales de ultra-alta temperatura (TRL 4-5). La brecha de TRL entre "subsistema útil" y "misión interestelar integrada" es de 3-6 niveles en todos los conceptos.
 
@@ -398,7 +400,7 @@ Esta revisión evaluó 28 conceptos de propulsión y navegación interestelar a 
 - Demostración en laboratorio de beam-riding con metasuperficies a >100 W de potencia láser continua
 - Experimentos de erosión del ISM usando aceleradores de iones para validar modelos de Hoang (2017) a velocidades equivalentes >0.1c
 - Análisis completo de presupuesto de enlace de comunicación para α Centauri, publicado con cálculos detallados de SNR y apertura
-- Experimento análogo de burbuja warp usando metamateriales ópticos no lineales (enfoque Smolyaninov/Faccio)
+- Experimento análogo de HORIZONTES (no burbujas warp) usando metamateriales ópticos no lineales (enfoque Smolyaninov/Faccio). PRECISIÓN: Los metamateriales con índice negativo simulan horizontes en medios en movimiento efectivo, NO burbujas warp con contracción/expansión coordinada del espacio-tiempo. Son fenómenos cualitativamente distintos. Este experimento probaría física de horizontes análogos, no viabilidad de warp drives.
 
 **En menos de 20 años (antes de 2046):**
 - Demostración suborbital o LEO de una vela de escala de gramos acelerada por láser terrestre (segundos de iluminación, delta-v de km/s)
@@ -690,6 +692,18 @@ La tentación de enfocarse en los conceptos más exóticos (warp drives, agujero
 
 [131] Crawford, I. A. (2016). Long-term scientific benefits of a space program. Space Policy, 37(3), 143-151. DOI: 10.1016/j.spacepol.2016.08.002
 
+[132] Rodal, J. (2026). A warp drive with predominantly positive invariant energy density. General Relativity and Gravitation, 58, Article 1. DOI: 10.1007/s10714-025-03495-x
+
+[133] Gao, R., Kelzenberg, M. D. & Atwater, H. A. (2024). Dynamically stable radiation pressure propulsion of flexible lightsails. Nature Communications, 15, 4203. DOI: 10.1038/s41467-024-47476-1
+
+[134] Norder, L. et al. (2025). Pentagonal photonic crystal mirrors: scalable lightsails with enhanced acceleration via neural topology optimization. Nature Communications. DOI: 10.1038/s41467-025-57749-y
+
+[135] Genta, G. (2024). Interstellar exploration: From science fiction to actual technology. Acta Astronautica, 222, 655-660. DOI: 10.1016/j.actaastro.2024.06.049
+
+[136] Barceló, C., Liberati, S., Sonego, S. & Visser, M. (2009). Fate of gravitational collapse in semiclassical gravity. Physical Review D, 77, 044032. DOI: 10.1103/PhysRevD.77.044032
+
+[137] Krasnikov, S. V. (1998). Hyperfast travel in general relativity. Physical Review D, 57(8), 4760. DOI: 10.1103/PhysRevD.57.4760
+
 ---
 
 ---
@@ -700,23 +714,17 @@ La tentación de enfocarse en los conceptos más exóticos (warp drives, agujero
 
 ### Notas del Bloque 19 (Actualizaciones 2023-2026, sin DOI verificable por el bot)
 
-[N1] General formalism, classification, and demystification of Natário warp drives (2025). arXiv:2602.16495. [UNVERIFIED — URL arXiv, sin DOI]
-
-[N2] Rodal, J. (2026). A warp drive with predominantly positive invariant energy density. General Relativity and Gravitation, 58, Article 1. DOI: 10.1007/s10714-025-03495-x. [VERIFICADO — journal peer-reviewed]
+[N1] Barzegar, H., Buchert, T. & Vigneron, Q. (2026). General formalism, classification, and demystification of the current warp-drive spacetimes. arXiv:2602.16495. ⚠ NO REVISADO POR PARES — preprint de arXiv, sin publicación en journal a la fecha de esta revisión. Los claims asociados deben considerarse como no verificados independientemente.
 
 [N3] Warp field mechanics 101. ResearchGate:288442599. [UNVERIFIED — URL ResearchGate, sin peer review confirmado]
 
-[N4] Gao, R., Kelzenberg, M. D., & Atwater, H. A. (2024). Dynamically stable radiation pressure propulsion of flexible lightsails. Nature Communications, 15, 4203. DOI: 10.1038/s41467-024-47476-1. [VERIFICADO — Caltech, peer-reviewed]
-
 [N5] Breakthrough Starshot Initiative. breakthroughinitiatives.org/initiative/3. [UNVERIFIED — fuente web institucional]
-
-[N7] Norder, L. et al. (2025). Pentagonal photonic crystal mirrors: scalable lightsails with enhanced acceleration via neural topology optimization. Nature Communications. DOI: 10.1038/s41467-025-57749-y. [VERIFICADO — Brown University + TU Delft, peer-reviewed]
 
 [N9] Cascaded Metasurfaces Enabled Versatile Beam Steering (2025). ResearchGate:395464673. [UNVERIFIED — URL ResearchGate]
 
-[N10] Advancements in metasurfaces for polarization control (2025). ScienceDirect S3050475925002775. [UNVERIFIED — extraer DOI]
+[N10] Advancements in metasurfaces for polarization control (2025). ScienceDirect S3050475925002775. [UNVERIFIED — referencia no localizada en bases de datos académicas; posible código malformado]
 
-[N11] Interstellar exploration: From science fiction to actual technology (2024). ScienceDirect S0094576524003655. [UNVERIFIED — extraer DOI]
+[N11] Genta, G. (2024). Interstellar exploration: From science fiction to actual technology. Acta Astronautica, 222, 655-660. DOI: 10.1016/j.actaastro.2024.06.049. [VERIFICADO — journal peer-reviewed]
 
 ---
 
