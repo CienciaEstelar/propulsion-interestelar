@@ -14,30 +14,22 @@
 \usepackage{setspace}
 \usepackage{fancyhdr}
 \onehalfspacing
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\small De Alcubierre a la Ingeniería}
-\fancyhead[R]{\small Juan Galaz}
-\fancyfoot[C]{\thepage}
 
 \title{{\bfseries De Alcubierre a la Ingeniería: Una Evaluación Crítica de los Conceptos de Propulsión Interestelar (1994--2026)}}
 \author{Juan Galaz\\[2mm]
 \small ORCID: \href{https://orcid.org/0009-0007-7474-7560}{0009-0007-7474-7560}\\
+\small DOI: \href{https://doi.org/10.5281/zenodo.20435538}{10.5281/zenodo.20435538}\\
 \small Santiago, Chile\\
 \small \texttt{juan.galaz@proton.me}}
 \date{28 de mayo de 2026}
 
-% --- DOI vertical en margen izquierdo (estilo PRL/IEEE) ---
-\usepackage{tikz}
-\usepackage{eso-pic}
-\AddToShipoutPictureBG{%
-  \begin{tikzpicture}[remember picture, overlay]
-    \node[anchor=south west, rotate=90, font=\footnotesize\color{gray!60},
-          xshift=-1.8cm, yshift=2cm] at (current page.south west) {%
-      DOI: \href{https://doi.org/10.5281/zenodo.20435538}{10.5281/zenodo.20435538}%
-    };
-  \end{tikzpicture}%
-}
+% --- Headers con DOI ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small De Alcubierre a la Ingenieria \hspace{1cm} \href{https://doi.org/10.5281/zenodo.20435538}{DOI: 10.5281/zenodo.20435538}}
+\fancyhead[R]{\small Juan Galaz}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 
 \begin{document}
 \maketitle
