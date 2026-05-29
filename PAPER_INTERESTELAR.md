@@ -425,6 +425,16 @@ Nuestros hallazgos principales son:
 
 El viaje interestelar no es un problema monolítico esperando un avance. Es un conjunto anidado de desafíos —energéticos, materiales, computacionales y físicos— que deben resolverse en un orden específico. La secuencia correcta, basada en la evidencia reunida aquí, es: (1) demostrar estabilización de beam-riding en laboratorio, (2) validar supervivencia al ISM a velocidades relevantes, (3) resolver el presupuesto de enlace de comunicación interestelar, (4) demostrar aceleración de escala de gramos a >0.01c en distancias interplanetarias, y (5) iterar.
 
+### 8.3 Líneas de investigación futura
+
+Tres extensiones naturales de este trabajo emergen de los gaps identificados:
+
+1. **Comunicación cuántica interestelar con cadenas de repetidores**: La Sección 5.1 establece que la coherencia cuántica puede mantenerse a distancias interestelares (Rogers 2020). Lo que falta es un modelo de ingeniería: ¿cuántos repetidores cuánticos se necesitan entre la Tierra y α Centauri para mantener fidelidad > 90%? Herramientas de simulación como Q2NS/ns-3 (Quantum Internet Task Force) permiten modelar cadenas de repetidores a distancias terrestres. La extrapolación de esos modelos a distancias astronómicas — identificando el punto de quiebre donde la decoherencia domina y proponiendo arquitecturas de repetidores para enlaces interestelares — es un paper independiente que este trabajo deja planteado.
+
+2. **Validación experimental de beam-riding a escala intermedia**: La brecha de 9 órdenes de magnitud entre las demostraciones actuales (ng) y una misión Starshot (g) solo puede cerrarse con experimentos incrementales. El experimento crucial de falsación propuesto en la Sección 8.2 (beam-riding a μg con >1 kW) debería ser el próximo hito experimental.
+
+3. **Gaussian Processes para health monitoring satelital**: La misma metodología de cuantificación de incertidumbre que usamos en esta revisión — ensembles de kernels, intervalos de confianza, detección de anomalías basada en cobertura— puede aplicarse al monitoreo predictivo de salud satelital. Un framework como SatHealth-GP, que predice tendencias de telemetría con GPs en lugar de LSTMs, complementa naturalmente este trabajo: los mismos satélites que hoy monitoreamos con GPs podrían ser los precursores de las velas interestelares del futuro.
+
 La tentación de enfocarse en los conceptos más exóticos (warp drives, agujeros de gusano) es comprensible: prometen viaje interestelar sin las brutales restricciones de la ecuación del cohete o los tiempos de crucero de décadas de las velas láser. Pero la evidencia de tres décadas de literatura post-Alcubierre es clara: cada solución que elimina una imposibilidad física introduce otra. La vela láser, con todas sus limitaciones, no requiere que el universo sea diferente de lo que observamos que es. En el paisaje de la propulsión interestelar, eso la hace única.
 
 ---
