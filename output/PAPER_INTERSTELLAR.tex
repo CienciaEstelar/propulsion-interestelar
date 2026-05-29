@@ -24,10 +24,20 @@
 \author{Juan Galaz\\[2mm]
 \small ORCID: \href{https://orcid.org/0009-0007-7474-7560}{0009-0007-7474-7560}\\
 \small Santiago, Chile\\
-\small \texttt{juan.galaz@proton.me}\\[1mm]
-\small DOI: \href{https://doi.org/10.5281/zenodo.20435538}{10.5281/zenodo.20435538} (v1.0.0)\\
-\small DOI (all versions): \href{https://doi.org/10.5281/zenodo.20435537}{10.5281/zenodo.20435537}}
+\small \texttt{juan.galaz@proton.me}}
 \date{28 May 2026}
+
+% --- Vertical DOI in left margin (PRL/IEEE style) ---
+\usepackage{tikz}
+\usepackage{eso-pic}
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, rotate=90, font=\footnotesize\color{gray!60},
+          xshift=-1.8cm, yshift=2cm] at (current page.south west) {%
+      DOI: \href{https://doi.org/10.5281/zenodo.20435538}{10.5281/zenodo.20435538}%
+    };
+  \end{tikzpicture}%
+}
 
 \begin{document}
 \maketitle
