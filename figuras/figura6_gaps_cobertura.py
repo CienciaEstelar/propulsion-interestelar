@@ -20,8 +20,9 @@ bloques = [
     "B18: Ética y\ngobernanza", "B19: Actualizaciones\n2023-2026",
 ]
 
-refs_con_doi = [10, 7, 11, 5, 8, 3, 8, 6, 1, 12, 15, 8, 8, 10, 5, 7, 5, 10, 0]
-refs_sin_doi = [5, 3, 3, 6, 0, 3, 1, 0, 0, 2, 3, 1, 2, 1, 3, 2, 1, 2, 11]
+# 137 referencias con DOI + 9 sin DOI/classic/anexo = 146 total
+refs_con_doi = [10, 7, 12, 6, 8, 3, 7, 6, 1, 12, 14, 8, 8, 10, 4, 6, 4, 10, 1]
+refs_sin_doi = [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 3]
 refs_unverified = refs_sin_doi  # Renombrar para claridad
 
 x = np.arange(len(bloques))
